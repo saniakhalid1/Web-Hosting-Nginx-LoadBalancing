@@ -1,0 +1,3610 @@
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=50 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+reply-rate = 100.0   
+session-rate = 50.0    
+Maximum connect burst length: 1
+
+Total: connections 3002 requests 6003 replies 6002 test-duration 60.024 s
+
+Connection rate: 50.0 conn/s (20.0 ms/conn, <=3 concurrent connections)
+Connection time [ms]: min 6.5 avg 9.3 max 43.1 median 8.5 stddev 2.6
+Connection time [ms]: connect 0.0
+Connection length [replies/conn]: 2.000
+
+Request rate: 100.0 req/s (10.0 ms/req)
+Request size [B]: 83.0
+
+Reply rate [replies/s]: min 100.0 avg 100.0 max 100.0 stddev 0.0 (12 samples)
+Reply time [ms]: response 3.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=6002 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 22.53 system 31.54 (user 37.5% system 52.5% total 90.1%)
+Net I/O: 318.9 KB/s (2.6*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 50.00 avg 50.00 max 50.00 stddev 0.00 (3001/3001)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 0 3001
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 280.2   
+session-rate = 93.0    
+reply-rate = 287.4   
+session-rate = 99.0    
+reply-rate = 263.9   
+session-rate = 83.5    
+reply-rate = 269.8   
+session-rate = 87.0    
+reply-rate = 259.8   
+session-rate = 81.2    
+reply-rate = 299.4   
+session-rate = 102.2   
+reply-rate = 277.6   
+session-rate = 94.5    
+reply-rate = 263.3   
+session-rate = 86.3    
+reply-rate = 246.2   
+session-rate = 78.0    
+reply-rate = 250.8   
+session-rate = 73.8    
+reply-rate = 250.6   
+session-rate = 76.8    
+reply-rate = 266.5   
+session-rate = 85.0    
+Maximum connect burst length: 10
+
+Total: connections 30857 requests 41738 replies 16086 test-duration 60.029 s
+
+Connection rate: 514.0 conn/s (1.9 ms/conn, <=269 concurrent connections)
+Connection time [ms]: min 17.5 avg 970.5 max 7351.6 median 888.5 stddev 476.0
+Connection time [ms]: connect 0.6
+Connection length [replies/conn]: 1.069
+
+Request rate: 695.3 req/s (1.4 ms/req)
+Request size [B]: 102.0
+
+Reply rate [replies/s]: min 246.2 avg 268.0 max 299.4 stddev 15.9 (12 samples)
+Reply time [ms]: response 906.0 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=16086 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.11 system 31.09 (user 1.9% system 51.8% total 53.6%)
+Net I/O: 902.6 KB/s (7.4*10^6 bps)
+
+Errors: total 25397 client-timo 0 socket-timo 0 connrefused 0 connreset 25397
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 73.81 avg 86.69 max 102.20 stddev 8.93 (5204/20754)
+Session: avg 1.80 connections/session
+Session lifetime [s]: 1.8
+Session failtime [s]: 0.3
+Session length histogram: 9949 5601 5204
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 197.8   
+session-rate = 34.4    
+reply-rate = 274.2   
+session-rate = 64.8    
+reply-rate = 269.2   
+session-rate = 65.2    
+reply-rate = 294.2   
+session-rate = 73.6    
+reply-rate = 316.4   
+session-rate = 83.2    
+reply-rate = 303.2   
+session-rate = 78.6    
+reply-rate = 326.4   
+session-rate = 85.4    
+reply-rate = 253.0   
+session-rate = 64.8    
+reply-rate = 233.0   
+session-rate = 53.2    
+reply-rate = 257.2   
+session-rate = 65.8    
+reply-rate = 278.2   
+session-rate = 70.5    
+reply-rate = 281.0   
+session-rate = 71.8    
+Maximum connect burst length: 19
+
+Total: connections 50866 requests 63231 replies 16427 test-duration 60.033 s
+
+Connection rate: 847.3 conn/s (1.2 ms/conn, <=294 concurrent connections)
+Connection time [ms]: min 33.5 avg 892.4 max 36985.4 median 698.5 stddev 1051.8
+Connection time [ms]: connect 0.9
+Connection length [replies/conn]: 1.033
+
+Request rate: 1053.3 req/s (0.9 ms/req)
+Request size [B]: 98.0
+
+Reply rate [replies/s]: min 197.8 avg 273.7 max 326.4 stddev 35.8 (12 samples)
+Reply time [ms]: response 860.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=16427 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.21 system 27.13 (user 2.0% system 45.2% total 47.2%)
+Net I/O: 951.9 KB/s (7.8*10^6 bps)
+
+Errors: total 46550 client-timo 0 socket-timo 0 connrefused 0 connreset 46550
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 34.40 avg 67.63 max 85.41 stddev 13.74 (4060/38764)
+Session: avg 1.87 connections/session
+Session lifetime [s]: 1.7
+Session failtime [s]: 0.2
+Session length histogram: 26459 8245 4060
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 238.1   
+session-rate = 40.6    
+reply-rate = 303.4   
+session-rate = 69.4    
+reply-rate = 240.9   
+session-rate = 45.7    
+reply-rate = 236.0   
+session-rate = 44.2    
+reply-rate = 298.8   
+session-rate = 64.6    
+reply-rate = 328.8   
+session-rate = 73.6    
+reply-rate = 353.3   
+session-rate = 77.0    
+reply-rate = 355.2   
+session-rate = 82.2    
+reply-rate = 356.0   
+session-rate = 75.0    
+reply-rate = 363.2   
+session-rate = 84.2    
+reply-rate = 357.6   
+session-rate = 86.6    
+Maximum connect burst length: 65
+reply-rate = 349.6   
+session-rate = 77.6    
+
+Total: connections 71299 requests 86092 replies 18908 test-duration 60.015 s
+
+Connection rate: 1188.0 conn/s (0.8 ms/conn, <=427 concurrent connections)
+Connection time [ms]: min 10.5 avg 797.3 max 27578.0 median 658.5 stddev 865.1
+Connection time [ms]: connect 1.4
+Connection length [replies/conn]: 1.028
+
+Request rate: 1434.5 req/s (0.7 ms/req)
+Request size [B]: 96.0
+
+Reply rate [replies/s]: min 236.0 avg 315.1 max 363.2 stddev 50.7 (12 samples)
+Reply time [ms]: response 770.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=18908 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.22 system 28.70 (user 2.0% system 47.8% total 49.9%)
+Net I/O: 1114.9 KB/s (9.1*10^6 bps)
+
+Errors: total 66931 client-timo 0 socket-timo 0 connrefused 0 connreset 66931
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 40.58 avg 68.38 max 86.60 stddev 16.21 (4104/56751)
+Session: avg 1.87 connections/session
+Session lifetime [s]: 1.5
+Session failtime [s]: 0.2
+Session length histogram: 41996 10651 4104
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=1250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 305.8   
+session-rate = 51.4    
+reply-rate = 346.8   
+session-rate = 66.4    
+reply-rate = 353.7   
+session-rate = 68.2    
+reply-rate = 350.4   
+session-rate = 67.8    
+reply-rate = 352.2   
+session-rate = 67.2    
+reply-rate = 334.2   
+session-rate = 57.2    
+reply-rate = 355.6   
+session-rate = 62.6    
+reply-rate = 352.6   
+session-rate = 71.0    
+reply-rate = 351.9   
+session-rate = 67.6    
+reply-rate = 371.6   
+session-rate = 75.2    
+reply-rate = 374.4   
+session-rate = 77.0    
+reply-rate = 365.4   
+session-rate = 68.4    
+Maximum connect burst length: 35
+
+Total: connections 91500 requests 108569 replies 21079 test-duration 60.012 s
+
+Connection rate: 1524.7 conn/s (0.7 ms/conn, <=380 concurrent connections)
+Connection time [ms]: min 180.3 avg 723.4 max 8882.1 median 643.5 stddev 503.9
+Connection time [ms]: connect 0.6
+Connection length [replies/conn]: 1.029
+
+Request rate: 1809.1 req/s (0.6 ms/req)
+Request size [B]: 95.0
+
+Reply rate [replies/s]: min 305.8 avg 351.2 max 374.4 stddev 18.0 (12 samples)
+Reply time [ms]: response 699.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=21079 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.47 system 33.25 (user 2.4% system 55.4% total 57.9%)
+Net I/O: 1260.7 KB/s (10.3*10^6 bps)
+
+Errors: total 87250 client-timo 0 socket-timo 0 connrefused 0 connreset 87250
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 51.40 avg 66.69 max 77.01 stddev 7.04 (4002/74778)
+Session: avg 1.85 connections/session
+Session lifetime [s]: 1.4
+Session failtime [s]: 0.1
+Session length histogram: 57739 13037 4002
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=1550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 288.9   
+session-rate = 33.0    
+reply-rate = 360.6   
+session-rate = 69.6    
+reply-rate = 339.8   
+session-rate = 57.6    
+reply-rate = 338.0   
+session-rate = 53.8    
+reply-rate = 349.8   
+session-rate = 60.2    
+reply-rate = 339.9   
+session-rate = 59.5    
+reply-rate = 346.5   
+session-rate = 61.4    
+reply-rate = 324.4   
+session-rate = 52.4    
+reply-rate = 341.6   
+session-rate = 60.0    
+reply-rate = 359.6   
+session-rate = 62.6    
+reply-rate = 329.2   
+session-rate = 59.6    
+reply-rate = 332.6   
+session-rate = 56.6    
+Maximum connect burst length: 36
+
+Total: connections 109115 requests 125938 replies 20258 test-duration 60.011 s
+
+Connection rate: 1818.3 conn/s (0.5 ms/conn, <=429 concurrent connections)
+Connection time [ms]: min 4.9 avg 745.5 max 20324.9 median 657.5 stddev 824.7
+Connection time [ms]: connect 0.7
+Connection length [replies/conn]: 1.037
+
+Request rate: 2098.6 req/s (0.5 ms/req)
+Request size [B]: 93.0
+
+Reply rate [replies/s]: min 288.9 avg 337.6 max 360.6 stddev 18.8 (12 samples)
+Reply time [ms]: response 715.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=20258 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.58 system 33.64 (user 2.6% system 56.1% total 58.7%)
+Net I/O: 1241.2 KB/s (10.2*10^6 bps)
+
+Errors: total 105423 client-timo 0 socket-timo 0 connrefused 0 connreset 105423
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 32.99 avg 57.19 max 69.60 stddev 8.79 (3432/92757)
+Session: avg 1.79 connections/session
+Session lifetime [s]: 1.4
+Session failtime [s]: 0.1
+Session length histogram: 75993 13332 3432
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=1850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 281.0   
+session-rate = 29.2    
+reply-rate = 306.8   
+session-rate = 41.2    
+reply-rate = 330.6   
+session-rate = 51.2    
+reply-rate = 316.8   
+session-rate = 50.6    
+reply-rate = 330.3   
+session-rate = 48.2    
+reply-rate = 339.8   
+session-rate = 64.4    
+reply-rate = 334.2   
+session-rate = 50.2    
+reply-rate = 339.2   
+session-rate = 60.4    
+reply-rate = 344.4   
+session-rate = 52.8    
+reply-rate = 337.0   
+session-rate = 50.4    
+reply-rate = 351.6   
+session-rate = 56.2    
+reply-rate = 331.0   
+session-rate = 55.8    
+Maximum connect burst length: 68
+
+Total: connections 126781 requests 143430 replies 19720 test-duration 60.014 s
+
+Connection rate: 2112.5 conn/s (0.5 ms/conn, <=571 concurrent connections)
+Connection time [ms]: min 121.0 avg 785.0 max 6118.5 median 719.5 stddev 429.3
+Connection time [ms]: connect 0.9
+Connection length [replies/conn]: 1.049
+
+Request rate: 2390.0 req/s (0.4 ms/req)
+Request size [B]: 92.0
+
+Reply rate [replies/s]: min 281.0 avg 328.6 max 351.6 stddev 19.1 (12 samples)
+Reply time [ms]: response 744.1 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=19720 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.67 system 34.28 (user 2.8% system 57.1% total 59.9%)
+Net I/O: 1236.4 KB/s (10.1*10^6 bps)
+
+Errors: total 123432 client-timo 0 socket-timo 0 connrefused 0 connreset 123432
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 29.20 avg 50.87 max 64.41 stddev 9.05 (3053/110739)
+Session: avg 1.71 connections/session
+Session lifetime [s]: 1.5
+Session failtime [s]: 0.1
+Session length histogram: 94136 13550 3053
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=2150 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 272.0   
+session-rate = 28.4    
+reply-rate = 307.6   
+session-rate = 45.4    
+reply-rate = 324.6   
+session-rate = 46.8    
+reply-rate = 316.8   
+session-rate = 50.2    
+reply-rate = 306.0   
+session-rate = 43.8    
+reply-rate = 289.6   
+session-rate = 37.0    
+reply-rate = 318.8   
+session-rate = 43.6    
+reply-rate = 295.8   
+session-rate = 40.6    
+reply-rate = 300.6   
+session-rate = 41.0    
+reply-rate = 337.8   
+session-rate = 57.8    
+reply-rate = 282.2   
+session-rate = 44.2    
+reply-rate = 322.0   
+session-rate = 43.2    
+Maximum connect burst length: 128
+
+Total: connections 143884 requests 159642 replies 18377 test-duration 60.019 s
+
+Connection rate: 2397.3 conn/s (0.4 ms/conn, <=904 concurrent connections)
+Connection time [ms]: min 187.1 avg 854.4 max 5200.1 median 781.5 stddev 446.5
+Connection time [ms]: connect 1.3
+Connection length [replies/conn]: 1.052
+
+Request rate: 2659.9 req/s (0.4 ms/req)
+Request size [B]: 90.0
+
+Reply rate [replies/s]: min 272.0 avg 306.2 max 337.8 stddev 19.1 (12 samples)
+Reply time [ms]: response 805.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=18377 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.75 system 34.35 (user 2.9% system 57.2% total 60.1%)
+Net I/O: 1187.4 KB/s (9.7*10^6 bps)
+
+Errors: total 140996 client-timo 0 socket-timo 0 connrefused 0 connreset 140996
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 28.38 avg 43.50 max 57.81 stddev 7.07 (2611/128752)
+Session: avg 1.65 connections/session
+Session lifetime [s]: 1.6
+Session failtime [s]: 0.1
+Session length histogram: 113017 13124 2611
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=2450 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 237.7   
+session-rate = 28.0    
+reply-rate = 293.6   
+session-rate = 41.6    
+reply-rate = 280.8   
+session-rate = 35.0    
+reply-rate = 266.0   
+session-rate = 28.2    
+reply-rate = 292.0   
+session-rate = 40.6    
+reply-rate = 299.7   
+session-rate = 39.2    
+reply-rate = 295.2   
+session-rate = 44.8    
+reply-rate = 280.8   
+session-rate = 37.6    
+reply-rate = 259.6   
+session-rate = 34.0    
+reply-rate = 216.6   
+session-rate = 22.8    
+reply-rate = 250.8   
+session-rate = 36.0    
+reply-rate = 173.9   
+session-rate = 18.4    
+Maximum connect burst length: 665
+
+Total: connections 151203 requests 164218 replies 15756 test-duration 60.244 s
+
+Connection rate: 2509.8 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 109.3 avg 1021.6 max 9026.6 median 940.5 stddev 695.6
+Connection time [ms]: connect 15.9
+Connection length [replies/conn]: 1.050
+
+Request rate: 2725.9 req/s (0.4 ms/req)
+Request size [B]: 89.0
+
+Reply rate [replies/s]: min 173.9 avg 262.2 max 299.7 stddev 37.8 (12 samples)
+Reply time [ms]: response 938.3 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15756 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.96 system 33.13 (user 3.3% system 55.0% total 58.2%)
+Net I/O: 1050.9 KB/s (8.6*10^6 bps)
+
+Errors: total 157523 client-timo 0 socket-timo 0 connrefused 0 connreset 148161
+Errors: fd-unavail 9362 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 18.39 avg 33.71 max 44.81 stddev 7.99 (2031/146583)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 1.9
+Session failtime [s]: 0.2
+Session length histogram: 132976 11576 2031
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=2750 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 184.2   
+session-rate = 20.2    
+reply-rate = 229.6   
+session-rate = 32.8    
+reply-rate = 258.9   
+session-rate = 20.8    
+reply-rate = 250.6   
+session-rate = 21.0    
+reply-rate = 248.5   
+session-rate = 23.2    
+reply-rate = 247.2   
+session-rate = 30.8    
+reply-rate = 267.3   
+session-rate = 31.0    
+reply-rate = 262.6   
+session-rate = 26.8    
+reply-rate = 255.2   
+session-rate = 27.6    
+reply-rate = 269.4   
+session-rate = 27.8    
+reply-rate = 263.8   
+session-rate = 30.0    
+Maximum connect burst length: 831
+reply-rate = 261.0   
+session-rate = 25.6    
+
+Total: connections 160894 requests 174283 replies 14994 test-duration 60.009 s
+
+Connection rate: 2681.2 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 108.7 avg 1084.0 max 4211.7 median 1051.5 stddev 352.6
+Connection time [ms]: connect 20.5
+Connection length [replies/conn]: 1.037
+
+Request rate: 2904.3 req/s (0.3 ms/req)
+Request size [B]: 88.0
+
+Reply rate [replies/s]: min 184.2 avg 249.9 max 269.4 stddev 23.4 (12 samples)
+Reply time [ms]: response 987.1 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=14994 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.81 system 28.78 (user 3.0% system 48.0% total 51.0%)
+Net I/O: 1028.9 KB/s (8.4*10^6 bps)
+
+Errors: total 175895 client-timo 0 socket-timo 0 connrefused 0 connreset 158869
+Errors: fd-unavail 17026 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 20.20 avg 26.46 max 32.80 stddev 4.35 (1588/164608)
+Session: avg 1.67 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.3
+Session length histogram: 151240 11780 1588
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=3050 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 217.5   
+session-rate = 14.2    
+reply-rate = 285.2   
+session-rate = 29.2    
+reply-rate = 252.8   
+session-rate = 24.0    
+reply-rate = 265.0   
+session-rate = 35.4    
+reply-rate = 267.8   
+session-rate = 28.0    
+reply-rate = 272.0   
+session-rate = 31.0    
+reply-rate = 257.0   
+session-rate = 27.4    
+reply-rate = 266.2   
+session-rate = 34.0    
+reply-rate = 258.0   
+session-rate = 27.6    
+reply-rate = 269.8   
+session-rate = 26.6    
+reply-rate = 266.0   
+session-rate = 28.8    
+reply-rate = 264.5   
+session-rate = 18.6    
+Maximum connect burst length: 485
+
+Total: connections 174446 requests 188506 replies 15717 test-duration 60.023 s
+
+Connection rate: 2906.3 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 218.2 avg 1116.4 max 4487.7 median 1067.5 stddev 377.5
+Connection time [ms]: connect 3.8
+Connection length [replies/conn]: 1.038
+
+Request rate: 3140.5 req/s (0.3 ms/req)
+Request size [B]: 88.0
+
+Reply rate [replies/s]: min 217.5 avg 261.8 max 285.2 stddev 16.2 (12 samples)
+Reply time [ms]: response 1059.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15717 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 1.99 system 35.13 (user 3.3% system 58.5% total 61.8%)
+Net I/O: 1085.7 KB/s (8.9*10^6 bps)
+
+Errors: total 194466 client-timo 0 socket-timo 0 connrefused 0 connreset 172298
+Errors: fd-unavail 22168 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 14.20 avg 27.07 max 35.40 stddev 5.95 (1625/182571)
+Session: avg 1.65 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.3
+Session length histogram: 168522 12424 1625
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=3350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 210.9   
+session-rate = 15.6    
+reply-rate = 258.2   
+session-rate = 32.2    
+reply-rate = 265.2   
+session-rate = 26.6    
+reply-rate = 262.4   
+session-rate = 27.8    
+reply-rate = 275.8   
+session-rate = 31.6    
+reply-rate = 290.0   
+session-rate = 24.6    
+reply-rate = 266.0   
+session-rate = 19.8    
+reply-rate = 266.8   
+session-rate = 32.0    
+reply-rate = 261.0   
+session-rate = 26.0    
+reply-rate = 284.4   
+session-rate = 37.4    
+reply-rate = 258.8   
+session-rate = 22.6    
+reply-rate = 274.2   
+session-rate = 29.2    
+Maximum connect burst length: 524
+
+Total: connections 184273 requests 198467 replies 15880 test-duration 60.021 s
+
+Connection rate: 3070.1 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 149.8 avg 1073.2 max 4518.5 median 1016.5 stddev 434.0
+Connection time [ms]: connect 7.1
+Connection length [replies/conn]: 1.039
+
+Request rate: 3306.6 req/s (0.3 ms/req)
+Request size [B]: 88.0
+
+Reply rate [replies/s]: min 210.9 avg 264.5 max 290.0 stddev 19.6 (12 samples)
+Reply time [ms]: response 1008.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15880 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.00 system 34.04 (user 3.3% system 56.7% total 60.0%)
+Net I/O: 1107.6 KB/s (9.1*10^6 bps)
+
+Errors: total 212096 client-timo 0 socket-timo 0 connrefused 0 connreset 181646
+Errors: fd-unavail 30450 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 15.60 avg 27.11 max 37.40 stddev 5.99 (1627/200073)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.3
+Session length histogram: 185899 12547 1627
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=3650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 207.3   
+session-rate = 13.0    
+reply-rate = 265.8   
+session-rate = 27.6    
+reply-rate = 272.8   
+session-rate = 30.2    
+reply-rate = 296.6   
+session-rate = 29.2    
+reply-rate = 275.4   
+session-rate = 29.0    
+reply-rate = 285.4   
+session-rate = 32.6    
+reply-rate = 249.4   
+session-rate = 21.2    
+reply-rate = 271.8   
+session-rate = 31.2    
+reply-rate = 274.9   
+session-rate = 23.8    
+reply-rate = 265.0   
+session-rate = 24.2    
+reply-rate = 251.8   
+session-rate = 21.8    
+reply-rate = 266.6   
+session-rate = 31.2    
+Maximum connect burst length: 497
+
+Total: connections 182682 requests 197023 replies 15920 test-duration 60.017 s
+
+Connection rate: 3043.9 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 53.2 avg 1057.3 max 3711.5 median 1046.5 stddev 386.5
+Connection time [ms]: connect 8.7
+Connection length [replies/conn]: 1.034
+
+Request rate: 3282.8 req/s (0.3 ms/req)
+Request size [B]: 88.0
+
+Reply rate [replies/s]: min 207.3 avg 265.2 max 296.6 stddev 22.3 (12 samples)
+Reply time [ms]: response 993.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15920 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.07 system 33.51 (user 3.4% system 55.8% total 59.3%)
+Net I/O: 1107.2 KB/s (9.1*10^6 bps)
+
+Errors: total 230309 client-timo 0 socket-timo 0 connrefused 0 connreset 180091
+Errors: fd-unavail 50218 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 13.00 avg 26.24 max 32.60 stddev 5.67 (1575/218068)
+Session: avg 1.67 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.3
+Session length histogram: 203786 12707 1575
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=3950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 238.0   
+session-rate = 15.8    
+reply-rate = 286.8   
+session-rate = 32.8    
+reply-rate = 264.0   
+session-rate = 20.4    
+reply-rate = 263.6   
+session-rate = 23.8    
+reply-rate = 268.7   
+session-rate = 28.8    
+reply-rate = 274.2   
+session-rate = 25.2    
+reply-rate = 252.5   
+session-rate = 20.8    
+reply-rate = 260.0   
+session-rate = 23.0    
+reply-rate = 261.7   
+session-rate = 29.6    
+reply-rate = 267.1   
+session-rate = 24.8    
+reply-rate = 259.6   
+session-rate = 22.4    
+reply-rate = 266.8   
+session-rate = 30.2    
+Maximum connect burst length: 478
+
+Total: connections 182003 requests 196280 replies 15822 test-duration 60.035 s
+
+Connection rate: 3031.6 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 196.2 avg 1090.6 max 5306.6 median 1097.5 stddev 338.8
+Connection time [ms]: connect 6.7
+Connection length [replies/conn]: 1.035
+
+Request rate: 3269.4 req/s (0.3 ms/req)
+Request size [B]: 88.0
+
+Reply rate [replies/s]: min 238.0 avg 263.6 max 286.8 stddev 11.7 (12 samples)
+Reply time [ms]: response 1029.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15822 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.02 system 34.35 (user 3.4% system 57.2% total 60.6%)
+Net I/O: 1100.2 KB/s (9.0*10^6 bps)
+
+Errors: total 248421 client-timo 0 socket-timo 0 connrefused 0 connreset 179522
+Errors: fd-unavail 68899 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 15.80 avg 24.79 max 32.80 stddev 4.85 (1488/236109)
+Session: avg 1.65 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.2
+Session length histogram: 221842 12779 1488
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=4250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 233.2   
+session-rate = 17.6    
+reply-rate = 293.8   
+session-rate = 33.8    
+reply-rate = 252.6   
+session-rate = 22.8    
+reply-rate = 266.2   
+session-rate = 23.4    
+reply-rate = 245.8   
+session-rate = 23.8    
+reply-rate = 263.6   
+session-rate = 27.4    
+reply-rate = 262.6   
+session-rate = 24.2    
+reply-rate = 270.0   
+session-rate = 26.4    
+reply-rate = 256.6   
+session-rate = 25.4    
+reply-rate = 269.4   
+session-rate = 30.4    
+reply-rate = 271.4   
+session-rate = 16.4    
+reply-rate = 277.4   
+session-rate = 26.4    
+Maximum connect burst length: 418
+
+Total: connections 180963 requests 195218 replies 15842 test-duration 60.055 s
+
+Connection rate: 3013.3 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 177.7 avg 1091.1 max 6152.2 median 1021.5 stddev 505.0
+Connection time [ms]: connect 9.1
+Connection length [replies/conn]: 1.035
+
+Request rate: 3250.6 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 233.2 avg 263.6 max 293.8 stddev 15.5 (12 samples)
+Reply time [ms]: response 1025.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15842 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.10 system 34.49 (user 3.5% system 57.4% total 60.9%)
+Net I/O: 1098.8 KB/s (9.0*10^6 bps)
+
+Errors: total 266509 client-timo 0 socket-timo 0 connrefused 0 connreset 178453
+Errors: fd-unavail 88056 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 16.40 avg 24.84 max 33.80 stddev 4.81 (1492/254191)
+Session: avg 1.65 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.2
+Session length histogram: 239900 12799 1492
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=4550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 241.4   
+session-rate = 25.6    
+reply-rate = 281.3   
+session-rate = 27.8    
+reply-rate = 283.8   
+session-rate = 26.6    
+reply-rate = 262.4   
+session-rate = 19.4    
+reply-rate = 267.6   
+session-rate = 29.4    
+reply-rate = 262.0   
+session-rate = 25.6    
+reply-rate = 266.0   
+session-rate = 19.8    
+reply-rate = 256.8   
+session-rate = 22.6    
+reply-rate = 270.6   
+session-rate = 18.0    
+reply-rate = 277.3   
+session-rate = 24.0    
+reply-rate = 285.4   
+session-rate = 22.4    
+reply-rate = 273.2   
+session-rate = 21.2    
+Maximum connect burst length: 525
+
+Total: connections 182666 requests 197270 replies 16150 test-duration 60.050 s
+
+Connection rate: 3041.9 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 310.2 avg 1092.8 max 4512.1 median 1054.5 stddev 342.1
+Connection time [ms]: connect 7.6
+Connection length [replies/conn]: 1.032
+
+Request rate: 3285.1 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 241.4 avg 269.0 max 285.4 stddev 12.6 (12 samples)
+Reply time [ms]: response 1034.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=16150 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.17 system 34.32 (user 3.6% system 57.2% total 60.8%)
+Net I/O: 1117.7 KB/s (9.2*10^6 bps)
+
+Errors: total 285009 client-timo 0 socket-timo 0 connrefused 0 connreset 180265
+Errors: fd-unavail 104744 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 18.00 avg 23.51 max 29.40 stddev 3.57 (1412/272188)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.2
+Session length histogram: 257537 13239 1412
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=4850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 223.6   
+session-rate = 24.2    
+reply-rate = 252.0   
+session-rate = 22.0    
+reply-rate = 267.8   
+session-rate = 23.4    
+reply-rate = 295.5   
+session-rate = 26.4    
+reply-rate = 283.8   
+session-rate = 20.8    
+reply-rate = 265.4   
+session-rate = 15.8    
+reply-rate = 290.6   
+session-rate = 26.0    
+reply-rate = 282.5   
+session-rate = 27.4    
+reply-rate = 303.8   
+session-rate = 24.2    
+reply-rate = 269.6   
+session-rate = 29.2    
+reply-rate = 268.2   
+session-rate = 27.2    
+reply-rate = 256.8   
+session-rate = 24.2    
+Maximum connect burst length: 881
+
+Total: connections 178917 requests 193764 replies 16303 test-duration 60.012 s
+
+Connection rate: 2981.3 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 266.2 avg 1039.0 max 3145.3 median 1047.5 stddev 313.6
+Connection time [ms]: connect 7.2
+Connection length [replies/conn]: 1.035
+
+Request rate: 3228.7 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 223.6 avg 271.6 max 303.8 stddev 21.8 (12 samples)
+Reply time [ms]: response 977.2 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=16303 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.16 system 34.50 (user 3.6% system 57.5% total 61.1%)
+Net I/O: 1121.1 KB/s (9.2*10^6 bps)
+
+Errors: total 302817 client-timo 0 socket-timo 0 connrefused 0 connreset 176447
+Errors: fd-unavail 126370 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 15.80 avg 24.23 max 29.19 stddev 3.56 (1454/289974)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 1.9
+Session failtime [s]: 0.2
+Session length histogram: 275198 13322 1454
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=5150 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 201.6   
+session-rate = 9.2     
+reply-rate = 246.6   
+session-rate = 18.2    
+reply-rate = 263.2   
+session-rate = 28.6    
+reply-rate = 264.0   
+session-rate = 17.2    
+reply-rate = 257.0   
+session-rate = 23.6    
+reply-rate = 272.4   
+session-rate = 25.2    
+reply-rate = 274.4   
+session-rate = 23.2    
+reply-rate = 279.6   
+session-rate = 23.8    
+reply-rate = 260.4   
+session-rate = 22.2    
+reply-rate = 263.6   
+session-rate = 24.2    
+reply-rate = 265.6   
+session-rate = 28.4    
+reply-rate = 285.6   
+session-rate = 20.6    
+Maximum connect burst length: 799
+
+Total: connections 179206 requests 193515 replies 15675 test-duration 60.032 s
+
+Connection rate: 2985.2 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 87.6 avg 1091.6 max 4232.1 median 1077.5 stddev 373.9
+Connection time [ms]: connect 8.6
+Connection length [replies/conn]: 1.031
+
+Request rate: 3223.5 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 201.6 avg 261.2 max 285.6 stddev 21.4 (12 samples)
+Reply time [ms]: response 1032.0 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15675 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.24 system 34.01 (user 3.7% system 56.7% total 60.4%)
+Net I/O: 1087.1 KB/s (8.9*10^6 bps)
+
+Errors: total 320892 client-timo 0 socket-timo 0 connrefused 0 connreset 176888
+Errors: fd-unavail 144004 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.20 avg 22.02 max 28.60 stddev 5.31 (1322/308327)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.2
+Session length histogram: 294036 12969 1322
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=5450 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 212.7   
+session-rate = 15.0    
+reply-rate = 270.8   
+session-rate = 23.8    
+reply-rate = 252.5   
+session-rate = 17.4    
+reply-rate = 259.6   
+session-rate = 25.4    
+reply-rate = 258.5   
+session-rate = 18.4    
+reply-rate = 261.6   
+session-rate = 30.6    
+reply-rate = 254.6   
+session-rate = 30.2    
+reply-rate = 260.4   
+session-rate = 16.2    
+reply-rate = 272.5   
+session-rate = 36.2    
+reply-rate = 238.6   
+session-rate = 25.0    
+reply-rate = 266.0   
+session-rate = 24.2    
+reply-rate = 275.8   
+session-rate = 29.0    
+Maximum connect burst length: 677
+
+Total: connections 173252 requests 187224 replies 15429 test-duration 60.023 s
+
+Connection rate: 2886.4 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 295.3 avg 1134.1 max 4364.0 median 1109.5 stddev 331.9
+Connection time [ms]: connect 8.3
+Connection length [replies/conn]: 1.041
+
+Request rate: 3119.2 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 212.7 avg 257.0 max 275.8 stddev 17.1 (12 samples)
+Reply time [ms]: response 1064.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15429 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.15 system 32.98 (user 3.6% system 54.9% total 58.5%)
+Net I/O: 1065.4 KB/s (8.7*10^6 bps)
+
+Errors: total 337845 client-timo 0 socket-timo 0 connrefused 0 connreset 170774
+Errors: fd-unavail 167071 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 15.00 avg 24.27 max 36.19 stddev 6.57 (1457/325933)
+Session: avg 1.59 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.2
+Session length histogram: 312050 12426 1457
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=5750 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 205.7   
+session-rate = 14.4    
+reply-rate = 255.0   
+session-rate = 23.2    
+reply-rate = 260.4   
+session-rate = 23.0    
+reply-rate = 271.0   
+session-rate = 24.4    
+reply-rate = 262.6   
+session-rate = 19.2    
+reply-rate = 255.2   
+session-rate = 25.4    
+reply-rate = 279.7   
+session-rate = 30.4    
+reply-rate = 284.6   
+session-rate = 24.4    
+reply-rate = 266.8   
+session-rate = 22.2    
+reply-rate = 276.1   
+session-rate = 15.2    
+reply-rate = 248.3   
+session-rate = 27.0    
+reply-rate = 249.2   
+session-rate = 20.4    
+Maximum connect burst length: 819
+
+Total: connections 177662 requests 191709 replies 15588 test-duration 60.024 s
+
+Connection rate: 2959.9 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 274.6 avg 1111.3 max 4227.8 median 1106.5 stddev 321.3
+Connection time [ms]: connect 8.7
+Connection length [replies/conn]: 1.034
+
+Request rate: 3193.9 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 205.7 avg 259.6 max 284.6 stddev 20.6 (12 samples)
+Reply time [ms]: response 1048.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15588 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.19 system 32.98 (user 3.7% system 55.0% total 58.6%)
+Net I/O: 1079.9 KB/s (8.8*10^6 bps)
+
+Errors: total 356722 client-timo 0 socket-timo 0 connrefused 0 connreset 175306
+Errors: fd-unavail 181416 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 14.39 avg 22.44 max 30.39 stddev 4.60 (1347/344334)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.2
+Session length histogram: 330177 12810 1347
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=6050 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 207.5   
+session-rate = 14.4    
+reply-rate = 275.9   
+session-rate = 19.4    
+reply-rate = 256.8   
+session-rate = 23.2    
+reply-rate = 259.0   
+session-rate = 17.8    
+reply-rate = 265.2   
+session-rate = 22.4    
+reply-rate = 257.6   
+session-rate = 20.6    
+reply-rate = 259.0   
+session-rate = 23.2    
+reply-rate = 294.6   
+session-rate = 29.0    
+reply-rate = 281.6   
+session-rate = 32.0    
+reply-rate = 275.2   
+session-rate = 22.4    
+reply-rate = 280.8   
+session-rate = 26.0    
+reply-rate = 275.3   
+session-rate = 18.8    
+Maximum connect burst length: 985
+
+Total: connections 178389 requests 192922 replies 15945 test-duration 60.016 s
+
+Connection rate: 2972.4 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 221.9 avg 1104.8 max 4266.9 median 1070.5 stddev 365.9
+Connection time [ms]: connect 7.4
+Connection length [replies/conn]: 1.035
+
+Request rate: 3214.5 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 207.5 avg 265.7 max 294.6 stddev 21.8 (12 samples)
+Reply time [ms]: response 1042.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15945 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.22 system 34.79 (user 3.7% system 58.0% total 61.7%)
+Net I/O: 1100.2 KB/s (9.0*10^6 bps)
+
+Errors: total 374937 client-timo 0 socket-timo 0 connrefused 0 connreset 176023
+Errors: fd-unavail 198914 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 14.39 avg 22.43 max 32.00 stddev 4.87 (1346/362218)
+Session: avg 1.61 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.2
+Session length histogram: 347737 13135 1346
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=6350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 225.7   
+session-rate = 18.2    
+reply-rate = 285.2   
+session-rate = 19.0    
+reply-rate = 271.2   
+session-rate = 25.8    
+reply-rate = 264.6   
+session-rate = 29.2    
+reply-rate = 261.6   
+session-rate = 19.0    
+reply-rate = 251.4   
+session-rate = 23.4    
+reply-rate = 298.8   
+session-rate = 21.6    
+reply-rate = 269.8   
+session-rate = 28.0    
+reply-rate = 260.2   
+session-rate = 27.8    
+reply-rate = 271.0   
+session-rate = 19.0    
+reply-rate = 283.3   
+session-rate = 20.4    
+reply-rate = 281.2   
+session-rate = 17.6    
+Maximum connect burst length: 783
+
+Total: connections 181736 requests 196483 replies 16123 test-duration 60.018 s
+
+Connection rate: 3028.0 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 264.6 avg 1086.8 max 3754.5 median 1058.5 stddev 352.5
+Connection time [ms]: connect 11.8
+Connection length [replies/conn]: 1.033
+
+Request rate: 3273.7 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 225.7 avg 268.7 max 298.8 stddev 18.7 (12 samples)
+Reply time [ms]: response 1016.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=16123 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.26 system 33.00 (user 3.8% system 55.0% total 58.7%)
+Net I/O: 1114.7 KB/s (9.1*10^6 bps)
+
+Errors: total 392756 client-timo 0 socket-timo 0 connrefused 0 connreset 179387
+Errors: fd-unavail 213369 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 17.60 avg 22.41 max 29.20 stddev 4.26 (1345/379833)
+Session: avg 1.63 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.2
+Session length histogram: 365112 13376 1345
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=6650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 226.9   
+session-rate = 12.2    
+reply-rate = 256.8   
+session-rate = 24.8    
+reply-rate = 262.6   
+session-rate = 21.2    
+reply-rate = 284.6   
+session-rate = 23.4    
+reply-rate = 275.2   
+session-rate = 30.4    
+reply-rate = 267.6   
+session-rate = 18.2    
+reply-rate = 270.3   
+session-rate = 24.6    
+reply-rate = 256.3   
+session-rate = 25.2    
+reply-rate = 265.4   
+session-rate = 24.2    
+reply-rate = 284.6   
+session-rate = 24.8    
+reply-rate = 265.6   
+session-rate = 28.0    
+reply-rate = 272.5   
+session-rate = 26.6    
+Maximum connect burst length: 1240
+
+Total: connections 176567 requests 191026 replies 15949 test-duration 60.024 s
+
+Connection rate: 2941.6 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 283.7 avg 1101.8 max 3432.6 median 1082.5 stddev 316.3
+Connection time [ms]: connect 7.6
+Connection length [replies/conn]: 1.037
+
+Request rate: 3182.5 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 226.9 avg 265.7 max 284.6 stddev 15.2 (12 samples)
+Reply time [ms]: response 1037.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15949 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.19 system 34.63 (user 3.7% system 57.7% total 61.3%)
+Net I/O: 1097.3 KB/s (9.0*10^6 bps)
+
+Errors: total 410509 client-timo 0 socket-timo 0 connrefused 0 connreset 174133
+Errors: fd-unavail 236376 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 12.20 avg 23.62 max 30.40 stddev 4.73 (1418/397966)
+Session: avg 1.60 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.1
+Session length histogram: 383506 13042 1418
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=6950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 199.4   
+session-rate = 11.2    
+reply-rate = 262.4   
+session-rate = 23.8    
+reply-rate = 277.6   
+session-rate = 25.8    
+reply-rate = 266.6   
+session-rate = 17.8    
+reply-rate = 250.6   
+session-rate = 17.4    
+reply-rate = 260.2   
+session-rate = 27.2    
+reply-rate = 272.6   
+session-rate = 24.2    
+reply-rate = 267.6   
+session-rate = 18.8    
+reply-rate = 269.2   
+session-rate = 27.0    
+reply-rate = 268.6   
+session-rate = 25.2    
+reply-rate = 287.2   
+session-rate = 22.2    
+reply-rate = 298.4   
+session-rate = 30.6    
+Maximum connect burst length: 921
+
+Total: connections 178786 requests 193332 replies 15913 test-duration 60.020 s
+
+Connection rate: 2978.8 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 173.0 avg 1101.8 max 5385.1 median 1045.5 stddev 444.5
+Connection time [ms]: connect 9.2
+Connection length [replies/conn]: 1.034
+
+Request rate: 3221.1 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 199.4 avg 265.0 max 298.4 stddev 24.1 (12 samples)
+Reply time [ms]: response 1037.2 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15913 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.27 system 34.22 (user 3.8% system 57.0% total 60.8%)
+Net I/O: 1098.8 KB/s (9.0*10^6 bps)
+
+Errors: total 429142 client-timo 0 socket-timo 0 connrefused 0 connreset 176409
+Errors: fd-unavail 252733 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 11.20 avg 22.61 max 30.60 stddev 5.40 (1357/416461)
+Session: avg 1.63 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.1
+Session length histogram: 401976 13128 1357
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=7250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 219.6   
+session-rate = 18.4    
+reply-rate = 268.0   
+session-rate = 24.8    
+reply-rate = 252.6   
+session-rate = 19.4    
+reply-rate = 239.1   
+session-rate = 21.2    
+reply-rate = 259.2   
+session-rate = 22.0    
+reply-rate = 250.3   
+session-rate = 12.8    
+reply-rate = 274.9   
+session-rate = 19.4    
+reply-rate = 268.4   
+session-rate = 27.2    
+reply-rate = 254.0   
+session-rate = 18.6    
+reply-rate = 273.7   
+session-rate = 32.8    
+reply-rate = 263.4   
+session-rate = 15.2    
+reply-rate = 266.4   
+session-rate = 19.2    
+Maximum connect burst length: 1650
+
+Total: connections 182173 requests 196220 replies 15452 test-duration 60.012 s
+
+Connection rate: 3035.6 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 234.8 avg 1107.3 max 3586.1 median 1099.5 stddev 338.5
+Connection time [ms]: connect 14.6
+Connection length [replies/conn]: 1.035
+
+Request rate: 3269.7 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 219.6 avg 257.5 max 274.9 stddev 15.9 (12 samples)
+Reply time [ms]: response 1026.6 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15452 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.24 system 32.29 (user 3.7% system 53.8% total 57.5%)
+Net I/O: 1078.7 KB/s (8.8*10^6 bps)
+
+Errors: total 446129 client-timo 0 socket-timo 0 connrefused 0 connreset 179898
+Errors: fd-unavail 266231 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 12.80 avg 20.91 max 32.79 stddev 5.35 (1255/433709)
+Session: avg 1.60 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.1
+Session length histogram: 419576 12878 1255
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=7550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 242.6   
+session-rate = 12.0    
+reply-rate = 291.7   
+session-rate = 33.2    
+reply-rate = 260.4   
+session-rate = 26.6    
+reply-rate = 269.4   
+session-rate = 22.4    
+reply-rate = 258.6   
+session-rate = 20.2    
+reply-rate = 253.2   
+session-rate = 20.0    
+reply-rate = 272.3   
+session-rate = 29.0    
+reply-rate = 290.4   
+session-rate = 25.0    
+reply-rate = 287.2   
+session-rate = 33.6    
+reply-rate = 255.8   
+session-rate = 19.6    
+reply-rate = 244.6   
+session-rate = 19.4    
+reply-rate = 260.6   
+session-rate = 24.6    
+Maximum connect burst length: 1109
+
+Total: connections 177920 requests 192428 replies 15936 test-duration 60.009 s
+
+Connection rate: 2964.9 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 221.9 avg 1081.4 max 3699.4 median 1077.5 stddev 336.7
+Connection time [ms]: connect 10.1
+Connection length [replies/conn]: 1.038
+
+Request rate: 3206.7 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 242.6 avg 265.6 max 291.7 stddev 16.9 (12 samples)
+Reply time [ms]: response 1012.2 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15936 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.34 system 33.31 (user 3.9% system 55.5% total 59.4%)
+Net I/O: 1098.6 KB/s (9.0*10^6 bps)
+
+Errors: total 464170 client-timo 0 socket-timo 0 connrefused 0 connreset 175472
+Errors: fd-unavail 288698 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 12.00 avg 23.80 max 33.60 stddev 6.23 (1428/451666)
+Session: avg 1.60 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.1
+Session length histogram: 437257 12981 1428
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=7850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 215.2   
+session-rate = 26.4    
+reply-rate = 273.6   
+session-rate = 25.6    
+reply-rate = 268.8   
+session-rate = 24.0    
+reply-rate = 273.8   
+session-rate = 26.6    
+reply-rate = 267.1   
+session-rate = 19.2    
+reply-rate = 274.2   
+session-rate = 29.0    
+reply-rate = 258.4   
+session-rate = 19.4    
+reply-rate = 260.2   
+session-rate = 25.4    
+reply-rate = 275.2   
+session-rate = 28.6    
+reply-rate = 275.0   
+session-rate = 22.2    
+reply-rate = 252.6   
+session-rate = 16.4    
+reply-rate = 295.6   
+session-rate = 21.4    
+Maximum connect burst length: 2317
+
+Total: connections 180856 requests 195389 replies 15966 test-duration 60.024 s
+
+Connection rate: 3013.1 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 220.8 avg 1080.6 max 3246.9 median 1082.5 stddev 283.9
+Connection time [ms]: connect 10.2
+Connection length [replies/conn]: 1.041
+
+Request rate: 3255.2 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 215.2 avg 265.8 max 295.6 stddev 19.3 (12 samples)
+Reply time [ms]: response 1008.3 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15966 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.42 system 33.80 (user 4.0% system 56.3% total 60.3%)
+Net I/O: 1104.0 KB/s (9.0*10^6 bps)
+
+Errors: total 482920 client-timo 0 socket-timo 0 connrefused 0 connreset 178415
+Errors: fd-unavail 304505 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 16.40 avg 23.69 max 29.00 stddev 3.98 (1422/470434)
+Session: avg 1.57 connections/session
+Session lifetime [s]: 2.0
+Session failtime [s]: 0.1
+Session length histogram: 455958 13054 1422
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=8150 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 210.8   
+session-rate = 10.8    
+reply-rate = 290.9   
+session-rate = 39.4    
+reply-rate = 275.4   
+session-rate = 28.2    
+reply-rate = 310.5   
+session-rate = 40.0    
+reply-rate = 258.8   
+session-rate = 20.6    
+reply-rate = 271.4   
+session-rate = 22.4    
+reply-rate = 261.4   
+session-rate = 16.0    
+reply-rate = 311.8   
+session-rate = 18.4    
+reply-rate = 268.8   
+session-rate = 36.2    
+reply-rate = 269.8   
+session-rate = 18.2    
+reply-rate = 252.8   
+session-rate = 20.8    
+reply-rate = 264.2   
+session-rate = 26.2    
+Maximum connect burst length: 1400
+
+Total: connections 180205 requests 194954 replies 16236 test-duration 60.016 s
+
+Connection rate: 3002.6 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 155.4 avg 1063.5 max 4314.6 median 1063.5 stddev 315.5
+Connection time [ms]: connect 10.7
+Connection length [replies/conn]: 1.043
+
+Request rate: 3248.4 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 210.8 avg 270.6 max 311.8 stddev 26.8 (12 samples)
+Reply time [ms]: response 987.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=16236 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.37 system 34.23 (user 3.9% system 57.0% total 61.0%)
+Net I/O: 1117.6 KB/s (9.2*10^6 bps)
+
+Errors: total 500369 client-timo 0 socket-timo 0 connrefused 0 connreset 177707
+Errors: fd-unavail 322662 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 10.79 avg 24.76 max 39.98 stddev 9.46 (1486/487768)
+Session: avg 1.56 connections/session
+Session lifetime [s]: 1.9
+Session failtime [s]: 0.1
+Session length histogram: 473082 13200 1486
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=8450 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 212.8   
+session-rate = 9.4     
+reply-rate = 254.2   
+session-rate = 20.8    
+reply-rate = 269.0   
+session-rate = 23.0    
+reply-rate = 253.1   
+session-rate = 19.2    
+reply-rate = 258.0   
+session-rate = 14.8    
+reply-rate = 261.2   
+session-rate = 29.4    
+reply-rate = 296.6   
+session-rate = 22.0    
+reply-rate = 260.6   
+session-rate = 29.2    
+reply-rate = 259.4   
+session-rate = 18.4    
+reply-rate = 268.2   
+session-rate = 17.8    
+reply-rate = 263.1   
+session-rate = 20.2    
+reply-rate = 256.2   
+session-rate = 18.8    
+Maximum connect burst length: 932
+
+Total: connections 177574 requests 191895 replies 15567 test-duration 60.026 s
+
+Connection rate: 2958.3 conn/s (0.3 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 153.9 avg 1137.9 max 3974.2 median 1125.5 stddev 327.1
+Connection time [ms]: connect 7.9
+Connection length [replies/conn]: 1.028
+
+Request rate: 3196.9 req/s (0.3 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 212.8 avg 259.4 max 296.6 stddev 18.6 (12 samples)
+Reply time [ms]: response 1081.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=15567 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.22 system 35.30 (user 3.7% system 58.8% total 62.5%)
+Net I/O: 1078.1 KB/s (8.8*10^6 bps)
+
+Errors: total 519287 client-timo 0 socket-timo 0 connrefused 0 connreset 175339
+Errors: fd-unavail 343948 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.40 avg 20.24 max 29.40 stddev 5.52 (1215/506569)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.1
+Session failtime [s]: 0.1
+Session length histogram: 492262 13092 1215
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=8750 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 234.6   
+session-rate = 15.0    
+reply-rate = 276.1   
+session-rate = 21.0    
+reply-rate = 5.3     
+session-rate = 0.3     
+reply-rate = 1.4     
+session-rate = 0.0     
+reply-rate = 170.8   
+session-rate = 5.6     
+reply-rate = 236.6   
+session-rate = 19.6    
+reply-rate = 220.7   
+session-rate = 13.0    
+reply-rate = 220.7   
+session-rate = 13.6    
+reply-rate = 219.6   
+session-rate = 15.4    
+Maximum connect burst length: 1728503
+
+Total: connections 108654 requests 117641 replies 9710 test-duration 240.737 s
+
+Connection rate: 451.3 conn/s (2.2 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 217.6 avg 1657.3 max 183775.3 median 1173.5 stddev 8552.7
+Connection time [ms]: connect 34.5
+Connection length [replies/conn]: 1.015
+
+Request rate: 488.7 req/s (2.0 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 1.4 avg 176.2 max 276.1 stddev 101.7 (9 samples)
+Reply time [ms]: response 1146.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=9710 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.87 system 30.78 (user 1.6% system 12.8% total 14.4%)
+Net I/O: 167.0 KB/s (1.4*10^6 bps)
+
+Errors: total 2115287 client-timo 1018 socket-timo 0 connrefused 0 connreset 106003
+Errors: fd-unavail 2008266 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2.55 max 20.99 stddev 7.77 (613/2106963)
+Session: avg 1.78 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 2097925 8425 613
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=9050 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 168.6   
+session-rate = 6.2     
+reply-rate = 225.8   
+session-rate = 26.4    
+reply-rate = 233.6   
+session-rate = 21.4    
+reply-rate = 242.0   
+session-rate = 19.2    
+reply-rate = 229.2   
+session-rate = 24.2    
+reply-rate = 223.2   
+session-rate = 18.8    
+reply-rate = 240.6   
+session-rate = 14.2    
+reply-rate = 215.0   
+session-rate = 18.8    
+reply-rate = 225.8   
+session-rate = 21.6    
+reply-rate = 226.2   
+session-rate = 21.0    
+reply-rate = 243.2   
+session-rate = 21.0    
+reply-rate = 244.0   
+session-rate = 19.2    
+Maximum connect burst length: 2488
+
+Total: connections 143573 requests 156001 replies 13590 test-duration 60.015 s
+
+Connection rate: 2392.3 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 247.2 avg 1343.0 max 6388.5 median 1326.5 stddev 383.1
+Connection time [ms]: connect 15.2
+Connection length [replies/conn]: 1.032
+
+Request rate: 2599.4 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 168.6 avg 226.4 max 244.0 stddev 20.4 (12 samples)
+Reply time [ms]: response 1254.6 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13590 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.45 system 33.76 (user 4.1% system 56.2% total 60.3%)
+Net I/O: 925.0 KB/s (7.6*10^6 bps)
+
+Errors: total 553492 client-timo 0 socket-timo 0 connrefused 0 connreset 141392
+Errors: fd-unavail 412100 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 6.20 avg 19.33 max 26.40 stddev 5.12 (1160/542646)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 530298 11188 1160
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=9350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 198.6   
+session-rate = 10.0    
+reply-rate = 233.0   
+session-rate = 21.2    
+reply-rate = 239.2   
+session-rate = 26.0    
+reply-rate = 225.8   
+session-rate = 19.2    
+reply-rate = 221.2   
+session-rate = 17.0    
+reply-rate = 220.0   
+session-rate = 19.0    
+reply-rate = 225.6   
+session-rate = 18.8    
+reply-rate = 233.0   
+session-rate = 17.2    
+reply-rate = 238.6   
+session-rate = 24.8    
+reply-rate = 228.4   
+session-rate = 16.4    
+reply-rate = 253.2   
+session-rate = 32.6    
+reply-rate = 232.6   
+session-rate = 20.8    
+Maximum connect burst length: 1569
+
+Total: connections 143108 requests 155558 replies 13749 test-duration 60.036 s
+
+Connection rate: 2383.7 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 441.5 avg 1346.6 max 3897.6 median 1315.5 stddev 357.6
+Connection time [ms]: connect 11.9
+Connection length [replies/conn]: 1.034
+
+Request rate: 2591.1 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 198.6 avg 229.1 max 253.2 stddev 13.2 (12 samples)
+Reply time [ms]: response 1269.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13749 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.54 system 33.75 (user 4.2% system 56.2% total 60.4%)
+Net I/O: 932.3 KB/s (7.6*10^6 bps)
+
+Errors: total 570680 client-timo 0 socket-timo 0 connrefused 0 connreset 140874
+Errors: fd-unavail 429806 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 10.00 avg 20.24 max 32.60 stddev 5.66 (1215/559807)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 547365 11227 1215
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=9650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 199.4   
+session-rate = 18.4    
+reply-rate = 234.6   
+session-rate = 18.8    
+reply-rate = 219.8   
+session-rate = 13.8    
+reply-rate = 224.3   
+session-rate = 16.4    
+reply-rate = 245.0   
+session-rate = 20.2    
+reply-rate = 225.4   
+session-rate = 16.6    
+reply-rate = 209.8   
+session-rate = 8.6     
+reply-rate = 223.8   
+session-rate = 22.6    
+reply-rate = 231.9   
+session-rate = 18.0    
+reply-rate = 246.6   
+session-rate = 23.2    
+reply-rate = 231.8   
+session-rate = 16.2    
+reply-rate = 247.5   
+session-rate = 19.4    
+Maximum connect burst length: 2256
+
+Total: connections 141539 requests 153730 replies 13706 test-duration 60.191 s
+
+Connection rate: 2351.5 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 309.2 avg 1336.8 max 3782.1 median 1311.5 stddev 316.2
+Connection time [ms]: connect 16.1
+Connection length [replies/conn]: 1.026
+
+Request rate: 2554.0 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 199.4 avg 228.3 max 247.5 stddev 14.6 (12 samples)
+Reply time [ms]: response 1257.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13706 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.54 system 32.61 (user 4.2% system 54.2% total 58.4%)
+Net I/O: 925.5 KB/s (7.6*10^6 bps)
+
+Errors: total 590575 client-timo 0 socket-timo 0 connrefused 0 connreset 139459
+Errors: fd-unavail 451116 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 8.60 avg 17.64 max 23.20 stddev 3.91 (1062/579345)
+Session: avg 1.68 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 566782 11501 1062
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=9950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 202.8   
+session-rate = 13.0    
+reply-rate = 222.3   
+session-rate = 15.0    
+reply-rate = 230.8   
+session-rate = 18.0    
+reply-rate = 226.6   
+session-rate = 15.4    
+reply-rate = 242.4   
+session-rate = 21.6    
+reply-rate = 222.7   
+session-rate = 19.0    
+reply-rate = 217.4   
+session-rate = 17.4    
+reply-rate = 230.2   
+session-rate = 19.8    
+reply-rate = 242.0   
+session-rate = 26.0    
+reply-rate = 217.2   
+session-rate = 18.0    
+reply-rate = 228.5   
+session-rate = 16.4    
+reply-rate = 252.2   
+session-rate = 17.4    
+Maximum connect burst length: 2725
+
+Total: connections 145855 requests 158226 replies 13681 test-duration 60.096 s
+
+Connection rate: 2427.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 295.0 avg 1303.9 max 5635.4 median 1249.5 stddev 471.0
+Connection time [ms]: connect 16.6
+Connection length [replies/conn]: 1.030
+
+Request rate: 2632.9 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 202.8 avg 227.9 max 252.2 stddev 13.2 (12 samples)
+Reply time [ms]: response 1220.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13681 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.53 system 33.46 (user 4.2% system 55.7% total 59.9%)
+Net I/O: 931.7 KB/s (7.6*10^6 bps)
+
+Errors: total 607390 client-timo 0 socket-timo 0 connrefused 0 connreset 143752
+Errors: fd-unavail 463638 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 13.00 avg 18.07 max 26.00 stddev 3.37 (1086/596277)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 583792 11399 1086
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=10250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 212.6   
+session-rate = 8.0     
+reply-rate = 222.3   
+session-rate = 18.2    
+reply-rate = 239.6   
+session-rate = 16.4    
+reply-rate = 234.4   
+session-rate = 23.0    
+reply-rate = 241.2   
+session-rate = 22.4    
+reply-rate = 216.0   
+session-rate = 19.6    
+reply-rate = 228.4   
+session-rate = 14.8    
+reply-rate = 224.4   
+session-rate = 16.2    
+reply-rate = 221.8   
+session-rate = 22.0    
+reply-rate = 246.8   
+session-rate = 21.2    
+reply-rate = 270.7   
+session-rate = 19.0    
+reply-rate = 224.2   
+session-rate = 18.2    
+Maximum connect burst length: 2417
+
+Total: connections 145395 requests 157984 replies 13926 test-duration 60.056 s
+
+Connection rate: 2421.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 440.0 avg 1315.5 max 4740.3 median 1299.5 stddev 356.7
+Connection time [ms]: connect 17.7
+Connection length [replies/conn]: 1.026
+
+Request rate: 2630.6 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 212.6 avg 231.9 max 270.7 stddev 16.0 (12 samples)
+Reply time [ms]: response 1232.6 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13926 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.73 system 32.25 (user 4.5% system 53.7% total 58.2%)
+Net I/O: 945.1 KB/s (7.7*10^6 bps)
+
+Errors: total 626230 client-timo 0 socket-timo 0 connrefused 0 connreset 143286
+Errors: fd-unavail 482944 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 8.00 avg 18.25 max 23.00 stddev 4.15 (1096/614854)
+Session: avg 1.69 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 602103 11655 1096
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=10550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 186.4   
+session-rate = 16.8    
+reply-rate = 207.8   
+session-rate = 13.0    
+reply-rate = 225.8   
+session-rate = 17.2    
+reply-rate = 217.6   
+session-rate = 15.2    
+reply-rate = 213.2   
+session-rate = 15.0    
+reply-rate = 215.6   
+session-rate = 18.4    
+reply-rate = 230.9   
+session-rate = 21.4    
+reply-rate = 225.8   
+session-rate = 16.0    
+reply-rate = 233.0   
+session-rate = 17.8    
+reply-rate = 238.2   
+session-rate = 17.2    
+reply-rate = 226.7   
+session-rate = 16.0    
+reply-rate = 220.4   
+session-rate = 14.2    
+Maximum connect burst length: 2419
+
+Total: connections 148223 requests 160038 replies 13217 test-duration 60.147 s
+
+Connection rate: 2464.3 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 240.4 avg 1339.1 max 4983.5 median 1249.5 stddev 492.3
+Connection time [ms]: connect 22.2
+Connection length [replies/conn]: 1.028
+
+Request rate: 2660.8 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 186.4 avg 220.1 max 238.2 stddev 13.8 (12 samples)
+Reply time [ms]: response 1242.0 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13217 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.61 system 32.67 (user 4.3% system 54.3% total 58.7%)
+Net I/O: 909.2 KB/s (7.4*10^6 bps)
+
+Errors: total 643724 client-timo 0 socket-timo 0 connrefused 0 connreset 146224
+Errors: fd-unavail 497500 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 13.00 avg 16.48 max 21.39 stddev 2.18 (991/632845)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 620675 11179 991
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=10850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 196.0   
+session-rate = 9.8     
+reply-rate = 241.6   
+session-rate = 17.0    
+reply-rate = 244.8   
+session-rate = 21.8    
+reply-rate = 220.6   
+session-rate = 13.2    
+reply-rate = 223.8   
+session-rate = 19.0    
+reply-rate = 245.4   
+session-rate = 19.2    
+reply-rate = 232.7   
+session-rate = 16.0    
+reply-rate = 243.6   
+session-rate = 15.4    
+reply-rate = 230.2   
+session-rate = 13.0    
+reply-rate = 233.2   
+session-rate = 20.4    
+reply-rate = 237.2   
+session-rate = 15.6    
+reply-rate = 260.3   
+session-rate = 26.2    
+Maximum connect burst length: 2584
+
+Total: connections 146318 requests 159199 replies 14053 test-duration 60.087 s
+
+Connection rate: 2435.1 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 305.7 avg 1264.3 max 4523.4 median 1200.5 stddev 455.1
+Connection time [ms]: connect 18.8
+Connection length [replies/conn]: 1.025
+
+Request rate: 2649.5 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 196.0 avg 234.1 max 260.3 stddev 16.1 (12 samples)
+Reply time [ms]: response 1183.1 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=14053 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.71 system 32.38 (user 4.5% system 53.9% total 58.4%)
+Net I/O: 952.8 KB/s (7.8*10^6 bps)
+
+Errors: total 661861 client-timo 0 socket-timo 0 connrefused 0 connreset 144272
+Errors: fd-unavail 517589 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.80 avg 17.19 max 26.17 stddev 4.42 (1033/650211)
+Session: avg 1.72 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 637317 11861 1033
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=11150 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 180.1   
+session-rate = 12.2    
+reply-rate = 240.9   
+session-rate = 19.2    
+reply-rate = 218.4   
+session-rate = 18.4    
+reply-rate = 227.2   
+session-rate = 14.8    
+reply-rate = 239.6   
+session-rate = 23.8    
+reply-rate = 235.8   
+session-rate = 14.0    
+reply-rate = 217.6   
+session-rate = 26.0    
+reply-rate = 234.6   
+session-rate = 21.2    
+reply-rate = 222.6   
+session-rate = 19.0    
+reply-rate = 218.6   
+session-rate = 13.0    
+reply-rate = 222.8   
+session-rate = 14.2    
+reply-rate = 224.5   
+session-rate = 18.8    
+Maximum connect burst length: 2693
+
+Total: connections 144065 requests 156355 replies 13418 test-duration 60.044 s
+
+Connection rate: 2399.3 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 435.8 avg 1364.7 max 4004.1 median 1337.5 stddev 325.8
+Connection time [ms]: connect 15.1
+Connection length [replies/conn]: 1.031
+
+Request rate: 2604.0 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 180.1 avg 223.6 max 240.9 stddev 16.0 (12 samples)
+Reply time [ms]: response 1279.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13418 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.73 system 33.57 (user 4.5% system 55.9% total 60.5%)
+Net I/O: 916.1 KB/s (7.5*10^6 bps)
+
+Errors: total 679641 client-timo 0 socket-timo 0 connrefused 0 connreset 141975
+Errors: fd-unavail 537666 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 12.19 avg 17.89 max 26.00 stddev 4.37 (1074/668773)
+Session: avg 1.63 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 656510 11189 1074
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=11450 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 193.4   
+session-rate = 13.6    
+reply-rate = 224.4   
+session-rate = 20.4    
+reply-rate = 237.8   
+session-rate = 16.8    
+reply-rate = 221.9   
+session-rate = 14.4    
+reply-rate = 231.0   
+session-rate = 15.2    
+reply-rate = 217.9   
+session-rate = 15.6    
+reply-rate = 224.4   
+session-rate = 13.4    
+reply-rate = 220.5   
+session-rate = 15.0    
+reply-rate = 225.8   
+session-rate = 17.4    
+reply-rate = 241.4   
+session-rate = 17.0    
+reply-rate = 222.7   
+session-rate = 21.2    
+Maximum connect burst length: 4562
+
+Total: connections 143066 requests 155572 replies 13514 test-duration 60.011 s
+
+Connection rate: 2384.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 317.9 avg 1345.0 max 6840.4 median 1226.5 stddev 603.2
+Connection time [ms]: connect 16.4
+Connection length [replies/conn]: 1.018
+
+Request rate: 2592.4 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 193.4 avg 223.8 max 241.4 stddev 12.4 (11 samples)
+Reply time [ms]: response 1279.1 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13514 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.71 system 31.96 (user 4.5% system 53.3% total 57.8%)
+Net I/O: 920.8 KB/s (7.5*10^6 bps)
+
+Errors: total 697976 client-timo 0 socket-timo 0 connrefused 0 connreset 141052
+Errors: fd-unavail 556924 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 13.40 avg 16.63 max 21.20 stddev 2.56 (998/686695)
+Session: avg 1.77 connections/session
+Session lifetime [s]: 2.6
+Session failtime [s]: 0.1
+Session length histogram: 674248 11449 998
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=11750 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 174.6   
+session-rate = 9.6     
+reply-rate = 224.0   
+session-rate = 16.6    
+reply-rate = 235.6   
+session-rate = 17.0    
+reply-rate = 183.9   
+session-rate = 14.0    
+reply-rate = 236.4   
+session-rate = 17.0    
+reply-rate = 219.8   
+session-rate = 15.0    
+reply-rate = 230.6   
+session-rate = 21.4    
+reply-rate = 233.0   
+session-rate = 19.2    
+reply-rate = 237.8   
+session-rate = 28.2    
+reply-rate = 210.2   
+session-rate = 10.4    
+reply-rate = 243.6   
+session-rate = 18.2    
+reply-rate = 228.0   
+session-rate = 16.0    
+Maximum connect burst length: 3521
+
+Total: connections 143205 requests 155442 replies 13295 test-duration 60.028 s
+
+Connection rate: 2385.6 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 182.8 avg 1327.9 max 3460.3 median 1326.5 stddev 344.4
+Connection time [ms]: connect 26.8
+Connection length [replies/conn]: 1.026
+
+Request rate: 2589.5 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 174.6 avg 221.5 max 243.6 stddev 21.7 (12 samples)
+Reply time [ms]: response 1226.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13295 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.63 system 31.94 (user 4.4% system 53.2% total 57.6%)
+Net I/O: 909.0 KB/s (7.4*10^6 bps)
+
+Errors: total 715173 client-timo 0 socket-timo 0 connrefused 0 connreset 141181
+Errors: fd-unavail 573992 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.60 avg 16.88 max 28.20 stddev 4.89 (1013/704238)
+Session: avg 1.68 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 692030 11195 1013
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=12050 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 170.6   
+session-rate = 8.2     
+reply-rate = 225.2   
+session-rate = 11.8    
+reply-rate = 242.5   
+session-rate = 20.0    
+reply-rate = 218.0   
+session-rate = 23.6    
+reply-rate = 228.2   
+session-rate = 18.4    
+reply-rate = 250.6   
+session-rate = 12.6    
+reply-rate = 203.4   
+session-rate = 13.0    
+reply-rate = 220.2   
+session-rate = 21.8    
+reply-rate = 243.0   
+session-rate = 16.2    
+reply-rate = 218.4   
+session-rate = 17.2    
+reply-rate = 238.0   
+session-rate = 22.8    
+reply-rate = 222.3   
+session-rate = 16.6    
+Maximum connect burst length: 4063
+
+Total: connections 144190 requests 156529 replies 13406 test-duration 60.028 s
+
+Connection rate: 2402.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 251.9 avg 1353.4 max 7419.5 median 1309.5 stddev 564.7
+Connection time [ms]: connect 15.0
+Connection length [replies/conn]: 1.028
+
+Request rate: 2607.6 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 170.6 avg 223.4 max 250.6 stddev 21.3 (12 samples)
+Reply time [ms]: response 1275.6 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13406 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.82 system 33.44 (user 4.7% system 55.7% total 60.4%)
+Net I/O: 915.9 KB/s (7.5*10^6 bps)
+
+Errors: total 733495 client-timo 0 socket-timo 0 connrefused 0 connreset 142157
+Errors: fd-unavail 591338 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 8.20 avg 16.86 max 23.60 stddev 4.78 (1012/722474)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.6
+Session failtime [s]: 0.1
+Session length histogram: 710149 11313 1012
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=12350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 209.4   
+session-rate = 16.0    
+reply-rate = 246.2   
+session-rate = 27.2    
+reply-rate = 233.6   
+session-rate = 17.0    
+reply-rate = 245.2   
+session-rate = 17.0    
+reply-rate = 250.0   
+session-rate = 15.8    
+reply-rate = 222.4   
+session-rate = 19.8    
+reply-rate = 220.4   
+session-rate = 14.0    
+reply-rate = 222.4   
+session-rate = 20.4    
+reply-rate = 218.0   
+session-rate = 13.4    
+reply-rate = 215.4   
+session-rate = 14.4    
+reply-rate = 253.4   
+session-rate = 13.2    
+reply-rate = 240.2   
+session-rate = 13.4    
+Maximum connect burst length: 2878
+
+Total: connections 145137 requests 157466 replies 13930 test-duration 60.372 s
+
+Connection rate: 2404.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 251.5 avg 1312.8 max 5578.0 median 1247.5 stddev 462.3
+Connection time [ms]: connect 17.0
+Connection length [replies/conn]: 1.028
+
+Request rate: 2608.2 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 209.4 avg 231.4 max 253.4 stddev 15.1 (12 samples)
+Reply time [ms]: response 1238.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13930 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.80 system 33.62 (user 4.6% system 55.7% total 60.3%)
+Net I/O: 939.4 KB/s (7.7*10^6 bps)
+
+Errors: total 755267 client-timo 0 socket-timo 0 connrefused 0 connreset 143108
+Errors: fd-unavail 612159 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 13.20 avg 16.71 max 27.20 stddev 4.06 (1009/743740)
+Session: avg 1.71 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 730943 11788 1009
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=12650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 209.2   
+session-rate = 15.8    
+reply-rate = 219.0   
+session-rate = 19.4    
+reply-rate = 237.4   
+session-rate = 19.0    
+reply-rate = 223.0   
+session-rate = 23.2    
+reply-rate = 259.0   
+session-rate = 34.4    
+reply-rate = 229.4   
+session-rate = 21.0    
+reply-rate = 224.6   
+session-rate = 16.2    
+reply-rate = 236.2   
+session-rate = 18.0    
+reply-rate = 233.2   
+session-rate = 14.6    
+reply-rate = 224.1   
+session-rate = 13.2    
+reply-rate = 223.4   
+session-rate = 28.0    
+reply-rate = 245.1   
+session-rate = 22.6    
+Maximum connect burst length: 6712
+
+Total: connections 142042 requests 154581 replies 13825 test-duration 60.029 s
+
+Connection rate: 2366.2 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 490.3 avg 1317.1 max 3596.0 median 1316.5 stddev 300.2
+Connection time [ms]: connect 18.5
+Connection length [replies/conn]: 1.037
+
+Request rate: 2575.1 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 209.2 avg 230.3 max 259.0 stddev 13.1 (12 samples)
+Reply time [ms]: response 1219.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13825 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.72 system 32.80 (user 4.5% system 54.6% total 59.2%)
+Net I/O: 935.1 KB/s (7.7*10^6 bps)
+
+Errors: total 768230 client-timo 0 socket-timo 0 connrefused 0 connreset 139799
+Errors: fd-unavail 628431 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 13.19 avg 20.46 max 34.40 stddev 6.03 (1228/757350)
+Session: avg 1.61 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 744802 11320 1228
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=12950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 202.3   
+session-rate = 12.8    
+reply-rate = 224.0   
+session-rate = 13.8    
+reply-rate = 227.4   
+session-rate = 23.0    
+reply-rate = 221.5   
+session-rate = 16.0    
+reply-rate = 231.6   
+session-rate = 23.0    
+reply-rate = 219.4   
+session-rate = 18.4    
+reply-rate = 259.4   
+session-rate = 23.6    
+reply-rate = 227.9   
+session-rate = 14.8    
+reply-rate = 229.6   
+session-rate = 19.0    
+reply-rate = 219.0   
+session-rate = 14.2    
+reply-rate = 228.4   
+session-rate = 21.2    
+reply-rate = 220.6   
+session-rate = 17.2    
+Maximum connect burst length: 4066
+
+Total: connections 143072 requests 155409 replies 13562 test-duration 60.044 s
+
+Connection rate: 2382.8 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 390.3 avg 1334.9 max 3564.3 median 1325.5 stddev 290.4
+Connection time [ms]: connect 14.8
+Connection length [replies/conn]: 1.025
+
+Request rate: 2588.3 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 202.3 avg 225.9 max 259.4 stddev 13.1 (12 samples)
+Reply time [ms]: response 1260.1 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13562 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.87 system 33.15 (user 4.8% system 55.2% total 60.0%)
+Net I/O: 922.4 KB/s (7.6*10^6 bps)
+
+Errors: total 787323 client-timo 0 socket-timo 0 connrefused 0 connreset 140964
+Errors: fd-unavail 646359 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 12.80 avg 18.10 max 23.60 stddev 3.89 (1087/776265)
+Session: avg 1.70 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 763847 11331 1087
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=13250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 180.8   
+session-rate = 12.0    
+reply-rate = 219.0   
+session-rate = 17.2    
+reply-rate = 231.8   
+session-rate = 25.8    
+reply-rate = 221.2   
+session-rate = 20.2    
+reply-rate = 230.9   
+session-rate = 25.6    
+reply-rate = 218.6   
+session-rate = 17.8    
+reply-rate = 233.4   
+session-rate = 18.2    
+reply-rate = 244.2   
+session-rate = 22.4    
+reply-rate = 229.2   
+session-rate = 19.2    
+reply-rate = 224.4   
+session-rate = 14.6    
+reply-rate = 228.2   
+session-rate = 22.4    
+reply-rate = 252.7   
+session-rate = 27.0    
+Maximum connect burst length: 5311
+
+Total: connections 142065 requests 154403 replies 13576 test-duration 60.014 s
+
+Connection rate: 2367.2 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 200.2 avg 1359.0 max 6763.9 median 1284.5 stddev 571.7
+Connection time [ms]: connect 17.4
+Connection length [replies/conn]: 1.035
+
+Request rate: 2572.8 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 180.8 avg 226.2 max 252.7 stddev 17.4 (12 samples)
+Reply time [ms]: response 1264.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13576 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.90 system 32.77 (user 4.8% system 54.6% total 59.4%)
+Net I/O: 922.0 KB/s (7.6*10^6 bps)
+
+Errors: total 803727 client-timo 0 socket-timo 0 connrefused 0 connreset 139840
+Errors: fd-unavail 663887 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 12.00 avg 20.20 max 26.99 stddev 4.62 (1212/793038)
+Session: avg 1.62 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 780746 11080 1212
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=13550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 151.4   
+session-rate = 5.6     
+reply-rate = 219.2   
+session-rate = 19.0    
+reply-rate = 256.8   
+session-rate = 19.6    
+reply-rate = 244.8   
+session-rate = 22.2    
+reply-rate = 226.8   
+session-rate = 17.8    
+reply-rate = 231.0   
+session-rate = 16.8    
+reply-rate = 225.7   
+session-rate = 17.0    
+reply-rate = 215.0   
+session-rate = 18.6    
+reply-rate = 233.6   
+session-rate = 22.2    
+reply-rate = 230.8   
+session-rate = 17.4    
+reply-rate = 229.2   
+session-rate = 18.0    
+reply-rate = 228.6   
+session-rate = 16.4    
+Maximum connect burst length: 2597
+
+Total: connections 142278 requests 154569 replies 13478 test-duration 60.045 s
+
+Connection rate: 2369.5 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 217.7 avg 1358.7 max 4047.7 median 1344.5 stddev 363.4
+Connection time [ms]: connect 17.0
+Connection length [replies/conn]: 1.024
+
+Request rate: 2574.2 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 151.4 avg 224.4 max 256.8 stddev 25.5 (12 samples)
+Reply time [ms]: response 1277.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13478 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.81 system 32.69 (user 4.7% system 54.4% total 59.1%)
+Net I/O: 916.9 KB/s (7.5*10^6 bps)
+
+Errors: total 822429 client-timo 0 socket-timo 0 connrefused 0 connreset 140211
+Errors: fd-unavail 682218 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 5.60 avg 17.55 max 22.20 stddev 4.22 (1054/811380)
+Session: avg 1.71 connections/session
+Session lifetime [s]: 2.6
+Session failtime [s]: 0.1
+Session length histogram: 799046 11280 1054
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=13850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 182.4   
+session-rate = 13.6    
+reply-rate = 223.6   
+session-rate = 17.8    
+reply-rate = 230.2   
+session-rate = 24.2    
+reply-rate = 238.0   
+session-rate = 21.4    
+reply-rate = 227.4   
+session-rate = 18.4    
+reply-rate = 223.8   
+session-rate = 14.2    
+reply-rate = 222.2   
+session-rate = 16.6    
+reply-rate = 222.8   
+session-rate = 15.6    
+reply-rate = 219.6   
+session-rate = 11.0    
+reply-rate = 217.2   
+session-rate = 19.8    
+reply-rate = 257.7   
+session-rate = 17.2    
+reply-rate = 225.2   
+session-rate = 20.6    
+Maximum connect burst length: 3201
+
+Total: connections 148726 requests 160966 replies 13465 test-duration 60.044 s
+
+Connection rate: 2477.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 332.2 avg 1330.6 max 4025.9 median 1327.5 stddev 439.4
+Connection time [ms]: connect 22.5
+Connection length [replies/conn]: 1.029
+
+Request rate: 2680.8 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 182.4 avg 224.2 max 257.7 stddev 17.0 (12 samples)
+Reply time [ms]: response 1236.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13465 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.87 system 32.34 (user 4.8% system 53.9% total 58.6%)
+Net I/O: 925.0 KB/s (7.6*10^6 bps)
+
+Errors: total 841117 client-timo 0 socket-timo 0 connrefused 0 connreset 146654
+Errors: fd-unavail 694463 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 11.00 avg 17.52 max 24.20 stddev 3.68 (1052/830132)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 817813 11267 1052
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=14150 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 169.2   
+session-rate = 11.2    
+reply-rate = 238.1   
+session-rate = 14.4    
+reply-rate = 235.2   
+session-rate = 24.6    
+reply-rate = 240.2   
+session-rate = 22.2    
+reply-rate = 243.8   
+session-rate = 21.0    
+reply-rate = 228.8   
+session-rate = 16.4    
+reply-rate = 234.8   
+session-rate = 22.8    
+reply-rate = 219.4   
+session-rate = 15.6    
+reply-rate = 237.0   
+session-rate = 20.4    
+reply-rate = 224.2   
+session-rate = 18.0    
+reply-rate = 224.2   
+session-rate = 19.6    
+reply-rate = 233.6   
+session-rate = 15.8    
+Maximum connect burst length: 3714
+
+Total: connections 143733 requests 155775 replies 13648 test-duration 60.047 s
+
+Connection rate: 2393.7 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 264.9 avg 1330.6 max 5709.1 median 1247.5 stddev 479.8
+Connection time [ms]: connect 23.0
+Connection length [replies/conn]: 1.032
+
+Request rate: 2594.2 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 169.2 avg 227.4 max 243.8 stddev 19.7 (12 samples)
+Reply time [ms]: response 1232.6 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13648 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.92 system 32.44 (user 4.9% system 54.0% total 58.9%)
+Net I/O: 927.4 KB/s (7.6*10^6 bps)
+
+Errors: total 860847 client-timo 0 socket-timo 0 connrefused 0 connreset 141606
+Errors: fd-unavail 719241 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 11.20 avg 18.49 max 24.60 stddev 3.94 (1110/849836)
+Session: avg 1.67 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 837387 11339 1110
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=14450 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 212.2   
+session-rate = 16.8    
+reply-rate = 220.2   
+session-rate = 11.0    
+reply-rate = 236.6   
+session-rate = 15.6    
+reply-rate = 228.0   
+session-rate = 24.4    
+reply-rate = 222.8   
+session-rate = 13.6    
+reply-rate = 232.8   
+session-rate = 27.0    
+reply-rate = 231.0   
+session-rate = 19.6    
+reply-rate = 226.4   
+session-rate = 18.0    
+reply-rate = 225.0   
+session-rate = 19.2    
+reply-rate = 232.6   
+session-rate = 24.0    
+reply-rate = 235.3   
+session-rate = 13.6    
+reply-rate = 238.3   
+session-rate = 14.2    
+Maximum connect burst length: 4249
+
+Total: connections 150631 requests 163208 replies 13709 test-duration 60.033 s
+
+Connection rate: 2509.2 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 326.5 avg 1288.1 max 4527.7 median 1287.5 stddev 385.8
+Connection time [ms]: connect 29.0
+Connection length [replies/conn]: 1.030
+
+Request rate: 2718.7 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 212.2 avg 228.4 max 238.3 stddev 7.6 (12 samples)
+Reply time [ms]: response 1171.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13709 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.94 system 31.84 (user 4.9% system 53.0% total 57.9%)
+Net I/O: 941.3 KB/s (7.7*10^6 bps)
+
+Errors: total 878368 client-timo 0 socket-timo 0 connrefused 0 connreset 148525
+Errors: fd-unavail 729843 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 11.00 avg 18.07 max 27.00 stddev 4.97 (1085/867233)
+Session: avg 1.63 connections/session
+Session lifetime [s]: 2.3
+Session failtime [s]: 0.1
+Session length histogram: 854652 11496 1085
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=14750 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 189.2   
+session-rate = 9.0     
+reply-rate = 225.4   
+session-rate = 12.8    
+reply-rate = 235.2   
+session-rate = 18.4    
+reply-rate = 244.0   
+session-rate = 21.2    
+reply-rate = 236.4   
+session-rate = 14.8    
+reply-rate = 223.0   
+session-rate = 15.6    
+reply-rate = 230.8   
+session-rate = 19.4    
+reply-rate = 248.6   
+session-rate = 15.8    
+reply-rate = 233.8   
+session-rate = 18.8    
+reply-rate = 259.8   
+session-rate = 20.4    
+reply-rate = 230.6   
+session-rate = 21.6    
+reply-rate = 237.6   
+session-rate = 26.0    
+Maximum connect burst length: 5074
+
+Total: connections 141656 requests 154316 replies 13975 test-duration 60.050 s
+
+Connection rate: 2359.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 287.2 avg 1298.5 max 4577.3 median 1210.5 stddev 523.0
+Connection time [ms]: connect 17.5
+Connection length [replies/conn]: 1.025
+
+Request rate: 2569.8 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 189.2 avg 232.9 max 259.8 stddev 17.1 (12 samples)
+Reply time [ms]: response 1218.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13975 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.96 system 32.81 (user 4.9% system 54.6% total 59.6%)
+Net I/O: 942.6 KB/s (7.7*10^6 bps)
+
+Errors: total 897331 client-timo 0 socket-timo 0 connrefused 0 connreset 139576
+Errors: fd-unavail 757755 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.00 avg 17.80 max 26.00 stddev 4.52 (1069/885836)
+Session: avg 1.70 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 872976 11791 1069
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=15050 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 188.6   
+session-rate = 10.6    
+reply-rate = 245.6   
+session-rate = 19.2    
+reply-rate = 177.4   
+session-rate = 7.0     
+reply-rate = 238.0   
+session-rate = 16.0    
+reply-rate = 231.0   
+session-rate = 14.6    
+reply-rate = 235.9   
+session-rate = 19.0    
+reply-rate = 226.0   
+session-rate = 18.4    
+reply-rate = 228.7   
+session-rate = 14.8    
+reply-rate = 228.6   
+session-rate = 24.0    
+reply-rate = 228.2   
+session-rate = 17.2    
+reply-rate = 231.6   
+session-rate = 22.0    
+reply-rate = 236.2   
+session-rate = 20.0    
+Maximum connect burst length: 4496
+
+Total: connections 142382 requests 154807 replies 13481 test-duration 60.031 s
+
+Connection rate: 2371.8 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 230.4 avg 1319.5 max 3581.9 median 1321.5 stddev 330.8
+Connection time [ms]: connect 27.5
+Connection length [replies/conn]: 1.025
+
+Request rate: 2578.8 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 177.4 avg 224.7 max 245.6 stddev 20.3 (12 samples)
+Reply time [ms]: response 1216.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13481 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.98 system 31.79 (user 5.0% system 53.0% total 57.9%)
+Net I/O: 917.8 KB/s (7.5*10^6 bps)
+
+Errors: total 912558 client-timo 0 socket-timo 0 connrefused 0 connreset 140349
+Errors: fd-unavail 772209 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 7.00 avg 16.89 max 24.00 stddev 4.73 (1014/901440)
+Session: avg 1.67 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 889039 11387 1014
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=15350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 186.6   
+session-rate = 11.4    
+reply-rate = 244.6   
+session-rate = 21.8    
+reply-rate = 242.0   
+session-rate = 23.0    
+reply-rate = 236.6   
+session-rate = 24.4    
+reply-rate = 257.0   
+session-rate = 25.6    
+reply-rate = 228.0   
+session-rate = 11.4    
+reply-rate = 237.8   
+session-rate = 21.6    
+reply-rate = 212.8   
+session-rate = 12.0    
+reply-rate = 228.4   
+session-rate = 18.6    
+reply-rate = 227.8   
+session-rate = 11.2    
+reply-rate = 229.4   
+session-rate = 14.4    
+reply-rate = 218.6   
+session-rate = 15.0    
+Maximum connect burst length: 6087
+
+Total: connections 144513 requests 157204 replies 13760 test-duration 60.024 s
+
+Connection rate: 2407.6 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 296.6 avg 1303.9 max 4145.6 median 1267.5 stddev 418.9
+Connection time [ms]: connect 25.0
+Connection length [replies/conn]: 1.030
+
+Request rate: 2619.0 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 186.6 avg 229.1 max 257.0 stddev 17.8 (12 samples)
+Reply time [ms]: response 1196.3 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13760 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.94 system 32.33 (user 4.9% system 53.9% total 58.8%)
+Net I/O: 935.7 KB/s (7.7*10^6 bps)
+
+Errors: total 932422 client-timo 0 socket-timo 0 connrefused 0 connreset 142442
+Errors: fd-unavail 789980 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 11.19 avg 17.54 max 25.60 stddev 5.56 (1053/921168)
+Session: avg 1.64 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 908527 11588 1053
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=15650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 164.6   
+session-rate = 4.4     
+reply-rate = 248.7   
+session-rate = 26.8    
+reply-rate = 227.7   
+session-rate = 15.6    
+reply-rate = 228.9   
+session-rate = 27.8    
+reply-rate = 264.8   
+session-rate = 37.4    
+reply-rate = 222.8   
+session-rate = 12.2    
+reply-rate = 219.6   
+session-rate = 19.6    
+reply-rate = 224.8   
+session-rate = 19.2    
+reply-rate = 214.2   
+session-rate = 12.6    
+reply-rate = 215.8   
+session-rate = 13.8    
+reply-rate = 220.7   
+session-rate = 12.2    
+reply-rate = 242.2   
+session-rate = 21.8    
+Maximum connect burst length: 4427
+
+Total: connections 142140 requests 154480 replies 13483 test-duration 60.022 s
+
+Connection rate: 2368.1 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 383.9 avg 1365.8 max 5533.2 median 1323.5 stddev 493.3
+Connection time [ms]: connect 20.1
+Connection length [replies/conn]: 1.034
+
+Request rate: 2573.7 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 164.6 avg 224.6 max 264.8 stddev 24.1 (12 samples)
+Reply time [ms]: response 1266.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13483 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 2.88 system 33.68 (user 4.8% system 56.1% total 60.9%)
+Net I/O: 917.2 KB/s (7.5*10^6 bps)
+
+Errors: total 949143 client-timo 0 socket-timo 0 connrefused 0 connreset 140002
+Errors: fd-unavail 809141 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 4.40 avg 18.63 max 37.40 stddev 8.88 (1118/938336)
+Session: avg 1.61 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 926022 11196 1118
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=15950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 187.7   
+session-rate = 9.0     
+reply-rate = 227.2   
+session-rate = 22.8    
+reply-rate = 215.2   
+session-rate = 21.6    
+reply-rate = 225.8   
+session-rate = 17.6    
+reply-rate = 222.8   
+session-rate = 19.4    
+reply-rate = 235.0   
+session-rate = 20.2    
+reply-rate = 257.6   
+session-rate = 16.2    
+reply-rate = 240.0   
+session-rate = 24.6    
+reply-rate = 233.2   
+session-rate = 19.8    
+reply-rate = 222.2   
+session-rate = 14.8    
+reply-rate = 240.2   
+session-rate = 18.4    
+reply-rate = 229.1   
+session-rate = 16.4    
+Maximum connect burst length: 3731
+
+Total: connections 143434 requests 156004 replies 13694 test-duration 60.040 s
+
+Connection rate: 2389.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 300.9 avg 1332.6 max 5632.9 median 1288.5 stddev 521.3
+Connection time [ms]: connect 19.4
+Connection length [replies/conn]: 1.026
+
+Request rate: 2598.3 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 187.7 avg 228.0 max 257.6 stddev 16.8 (12 samples)
+Reply time [ms]: response 1244.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13694 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.02 system 32.56 (user 5.0% system 54.2% total 59.3%)
+Net I/O: 930.3 KB/s (7.6*10^6 bps)
+
+Errors: total 967631 client-timo 0 socket-timo 0 connrefused 0 connreset 141308
+Errors: fd-unavail 826323 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 8.99 avg 18.42 max 24.60 stddev 4.10 (1106/956496)
+Session: avg 1.69 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 943970 11420 1106
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=16250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 204.6   
+session-rate = 13.4    
+reply-rate = 212.4   
+session-rate = 19.8    
+reply-rate = 188.4   
+session-rate = 8.2     
+reply-rate = 216.6   
+session-rate = 16.8    
+reply-rate = 231.4   
+session-rate = 24.6    
+reply-rate = 219.2   
+session-rate = 11.2    
+reply-rate = 237.6   
+session-rate = 24.4    
+reply-rate = 220.4   
+session-rate = 14.2    
+reply-rate = 228.6   
+session-rate = 15.6    
+reply-rate = 236.4   
+session-rate = 20.4    
+reply-rate = 218.7   
+session-rate = 18.4    
+reply-rate = 237.9   
+session-rate = 22.0    
+Maximum connect burst length: 6094
+
+Total: connections 145105 requests 157308 replies 13264 test-duration 60.015 s
+
+Connection rate: 2417.8 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 267.7 avg 1338.6 max 5361.3 median 1324.5 stddev 551.6
+Connection time [ms]: connect 23.1
+Connection length [replies/conn]: 1.026
+
+Request rate: 2621.1 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 188.4 avg 221.0 max 237.9 stddev 14.8 (12 samples)
+Reply time [ms]: response 1245.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13264 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.05 system 33.05 (user 5.1% system 55.1% total 60.1%)
+Net I/O: 909.8 KB/s (7.5*10^6 bps)
+
+Errors: total 985468 client-timo 0 socket-timo 0 connrefused 0 connreset 143039
+Errors: fd-unavail 842429 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 8.20 avg 17.43 max 24.60 stddev 5.14 (1046/974632)
+Session: avg 1.71 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 962542 11044 1046
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=16550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 185.8   
+session-rate = 10.4    
+reply-rate = 221.2   
+session-rate = 10.2    
+reply-rate = 223.0   
+session-rate = 14.2    
+reply-rate = 213.2   
+session-rate = 19.0    
+reply-rate = 215.1   
+session-rate = 13.6    
+reply-rate = 223.3   
+session-rate = 16.6    
+reply-rate = 265.8   
+session-rate = 23.0    
+reply-rate = 240.3   
+session-rate = 22.2    
+reply-rate = 230.4   
+session-rate = 13.4    
+reply-rate = 224.6   
+session-rate = 19.2    
+reply-rate = 228.6   
+session-rate = 17.2    
+reply-rate = 243.1   
+session-rate = 18.2    
+Maximum connect burst length: 4545
+
+Total: connections 144641 requests 157119 replies 13581 test-duration 60.045 s
+
+Connection rate: 2408.9 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 235.5 avg 1336.5 max 4278.3 median 1339.5 stddev 367.0
+Connection time [ms]: connect 23.8
+Connection length [replies/conn]: 1.021
+
+Request rate: 2616.7 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 185.8 avg 226.2 max 265.8 stddev 19.2 (12 samples)
+Reply time [ms]: response 1242.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13581 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.08 system 32.65 (user 5.1% system 54.4% total 59.5%)
+Net I/O: 926.0 KB/s (7.6*10^6 bps)
+
+Errors: total 1005744 client-timo 0 socket-timo 0 connrefused 0 connreset 142638
+Errors: fd-unavail 863106 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 10.20 avg 16.44 max 23.00 stddev 4.18 (987/994420)
+Session: avg 1.72 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 981886 11547 987
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=16850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 166.9   
+session-rate = 9.4     
+reply-rate = 226.2   
+session-rate = 17.6    
+reply-rate = 241.0   
+session-rate = 14.2    
+reply-rate = 227.0   
+session-rate = 19.8    
+reply-rate = 224.9   
+session-rate = 15.2    
+reply-rate = 218.4   
+session-rate = 12.0    
+reply-rate = 233.2   
+session-rate = 13.6    
+reply-rate = 241.7   
+session-rate = 14.2    
+reply-rate = 219.8   
+session-rate = 17.8    
+reply-rate = 227.6   
+session-rate = 21.6    
+reply-rate = 226.8   
+session-rate = 12.2    
+reply-rate = 224.8   
+session-rate = 16.2    
+Maximum connect burst length: 4859
+
+Total: connections 141005 requests 153174 replies 13407 test-duration 60.154 s
+
+Connection rate: 2344.1 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 298.4 avg 1353.8 max 4368.0 median 1321.5 stddev 392.5
+Connection time [ms]: connect 20.5
+Connection length [replies/conn]: 1.017
+
+Request rate: 2546.4 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 166.9 avg 223.2 max 241.7 stddev 19.1 (12 samples)
+Reply time [ms]: response 1274.9 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13407 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.06 system 32.81 (user 5.1% system 54.5% total 59.6%)
+Net I/O: 909.8 KB/s (7.5*10^6 bps)
+
+Errors: total 1023596 client-timo 0 socket-timo 0 connrefused 0 connreset 139066
+Errors: fd-unavail 884530 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.40 avg 15.28 max 21.60 stddev 3.48 (919/1012248)
+Session: avg 1.78 connections/session
+Session lifetime [s]: 2.6
+Session failtime [s]: 0.1
+Session length histogram: 999819 11510 919
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=17150 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 219.4   
+session-rate = 9.6     
+reply-rate = 228.2   
+session-rate = 21.2    
+reply-rate = 230.6   
+session-rate = 19.8    
+reply-rate = 222.7   
+session-rate = 21.0    
+reply-rate = 242.4   
+session-rate = 21.2    
+reply-rate = 220.2   
+session-rate = 15.4    
+reply-rate = 218.2   
+session-rate = 14.4    
+reply-rate = 194.2   
+session-rate = 10.6    
+reply-rate = 225.4   
+session-rate = 9.0     
+reply-rate = 233.1   
+session-rate = 24.8    
+reply-rate = 224.0   
+session-rate = 17.6    
+reply-rate = 222.2   
+session-rate = 18.8    
+Maximum connect burst length: 6461
+
+Total: connections 146997 requests 159274 replies 13414 test-duration 60.088 s
+
+Connection rate: 2446.3 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 275.6 avg 1332.5 max 8551.5 median 1267.5 stddev 644.4
+Connection time [ms]: connect 23.4
+Connection length [replies/conn]: 1.021
+
+Request rate: 2650.7 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 194.2 avg 223.4 max 242.4 stddev 11.4 (12 samples)
+Reply time [ms]: response 1242.0 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13414 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.15 system 32.99 (user 5.2% system 54.9% total 60.1%)
+Net I/O: 919.4 KB/s (7.5*10^6 bps)
+
+Errors: total 1038769 client-timo 0 socket-timo 0 connrefused 0 connreset 144961
+Errors: fd-unavail 893808 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.00 avg 16.96 max 24.76 stddev 5.15 (1019/1027668)
+Session: avg 1.74 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1015321 11328 1019
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=17450 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 183.0   
+session-rate = 7.2     
+reply-rate = 239.0   
+session-rate = 24.6    
+reply-rate = 248.5   
+session-rate = 24.2    
+reply-rate = 232.2   
+session-rate = 14.2    
+reply-rate = 207.7   
+session-rate = 13.4    
+reply-rate = 212.4   
+session-rate = 12.4    
+reply-rate = 229.4   
+session-rate = 14.6    
+reply-rate = 247.6   
+session-rate = 24.4    
+reply-rate = 232.2   
+session-rate = 13.0    
+reply-rate = 225.9   
+session-rate = 17.2    
+reply-rate = 235.8   
+session-rate = 12.8    
+reply-rate = 220.4   
+session-rate = 18.0    
+Maximum connect burst length: 4506
+
+Total: connections 143317 requests 155423 replies 13596 test-duration 60.081 s
+
+Connection rate: 2385.4 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 335.4 avg 1336.4 max 4123.5 median 1335.5 stddev 347.3
+Connection time [ms]: connect 22.4
+Connection length [replies/conn]: 1.025
+
+Request rate: 2586.9 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 183.0 avg 226.2 max 248.5 stddev 18.4 (12 samples)
+Reply time [ms]: response 1249.3 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13596 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.24 system 32.61 (user 5.4% system 54.3% total 59.7%)
+Net I/O: 923.8 KB/s (7.6*10^6 bps)
+
+Errors: total 1060263 client-timo 0 socket-timo 0 connrefused 0 connreset 141321
+Errors: fd-unavail 918942 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 7.20 avg 16.31 max 24.60 stddev 5.54 (980/1048962)
+Session: avg 1.72 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1036448 11534 980
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=17750 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 230.1   
+session-rate = 30.0    
+reply-rate = 231.7   
+session-rate = 20.4    
+reply-rate = 224.0   
+session-rate = 21.4    
+reply-rate = 240.0   
+session-rate = 17.6    
+reply-rate = 225.2   
+session-rate = 15.4    
+reply-rate = 241.0   
+session-rate = 23.2    
+reply-rate = 245.2   
+session-rate = 12.4    
+reply-rate = 224.3   
+session-rate = 12.8    
+reply-rate = 226.2   
+session-rate = 10.4    
+reply-rate = 233.6   
+session-rate = 16.6    
+reply-rate = 226.4   
+session-rate = 14.6    
+reply-rate = 227.0   
+session-rate = 13.8    
+Maximum connect burst length: 4554
+
+Total: connections 144962 requests 157772 replies 13876 test-duration 60.027 s
+
+Connection rate: 2415.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 317.6 avg 1289.1 max 5642.4 median 1257.5 stddev 423.8
+Connection time [ms]: connect 24.8
+Connection length [replies/conn]: 1.023
+
+Request rate: 2628.4 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 224.0 avg 231.2 max 245.2 stddev 7.2 (12 samples)
+Reply time [ms]: response 1191.5 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13876 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.14 system 32.18 (user 5.2% system 53.6% total 58.8%)
+Net I/O: 942.7 KB/s (7.7*10^6 bps)
+
+Errors: total 1077274 client-timo 0 socket-timo 0 connrefused 0 connreset 142903
+Errors: fd-unavail 934371 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 10.40 avg 17.38 max 29.99 stddev 5.54 (1043/1065800)
+Session: avg 1.70 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.1
+Session length histogram: 1053020 11737 1043
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=18050 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 177.2   
+session-rate = 7.6     
+reply-rate = 206.5   
+session-rate = 11.8    
+reply-rate = 224.4   
+session-rate = 19.6    
+reply-rate = 235.2   
+session-rate = 15.2    
+reply-rate = 226.6   
+session-rate = 16.2    
+reply-rate = 216.6   
+session-rate = 19.4    
+reply-rate = 219.4   
+session-rate = 9.6     
+reply-rate = 230.8   
+session-rate = 20.4    
+reply-rate = 229.0   
+session-rate = 11.2    
+reply-rate = 243.2   
+session-rate = 19.8    
+reply-rate = 213.6   
+session-rate = 14.6    
+reply-rate = 222.2   
+session-rate = 13.0    
+Maximum connect burst length: 8574
+
+Total: connections 142924 requests 155218 replies 13233 test-duration 60.034 s
+
+Connection rate: 2380.7 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 238.3 avg 1347.0 max 4965.7 median 1355.5 stddev 413.5
+Connection time [ms]: connect 32.6
+Connection length [replies/conn]: 1.017
+
+Request rate: 2585.5 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 177.2 avg 220.4 max 243.2 stddev 16.8 (12 samples)
+Reply time [ms]: response 1235.0 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13233 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.23 system 31.35 (user 5.4% system 52.2% total 57.6%)
+Net I/O: 905.7 KB/s (7.4*10^6 bps)
+
+Errors: total 1095540 client-timo 0 socket-timo 0 connrefused 0 connreset 141014
+Errors: fd-unavail 954526 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 7.60 avg 14.86 max 20.40 stddev 4.34 (892/1084313)
+Session: avg 1.76 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1072073 11348 892
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=18350 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 181.2   
+session-rate = 9.2     
+reply-rate = 218.7   
+session-rate = 18.0    
+reply-rate = 226.0   
+session-rate = 17.4    
+reply-rate = 216.2   
+session-rate = 16.8    
+reply-rate = 239.2   
+session-rate = 18.2    
+reply-rate = 226.8   
+session-rate = 18.8    
+reply-rate = 266.4   
+session-rate = 25.8    
+reply-rate = 226.8   
+session-rate = 18.8    
+reply-rate = 225.6   
+session-rate = 18.6    
+reply-rate = 240.8   
+session-rate = 21.4    
+reply-rate = 233.2   
+session-rate = 19.6    
+reply-rate = 224.0   
+session-rate = 15.2    
+Maximum connect burst length: 4463
+
+Total: connections 143685 requests 156217 replies 13631 test-duration 60.032 s
+
+Connection rate: 2393.5 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 287.7 avg 1334.2 max 5201.1 median 1256.5 stddev 498.4
+Connection time [ms]: connect 23.4
+Connection length [replies/conn]: 1.024
+
+Request rate: 2602.2 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 181.2 avg 227.1 max 266.4 stddev 19.6 (12 samples)
+Reply time [ms]: response 1239.8 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13631 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.34 system 33.39 (user 5.6% system 55.6% total 61.2%)
+Net I/O: 927.4 KB/s (7.6*10^6 bps)
+
+Errors: total 1109643 client-timo 0 socket-timo 0 connrefused 0 connreset 141582
+Errors: fd-unavail 968061 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.20 avg 18.14 max 25.80 stddev 3.86 (1089/1098506)
+Session: avg 1.72 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1086022 11395 1089
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=18650 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 172.6   
+session-rate = 11.8    
+reply-rate = 245.8   
+session-rate = 19.6    
+reply-rate = 229.7   
+session-rate = 22.0    
+reply-rate = 224.8   
+session-rate = 16.6    
+reply-rate = 221.6   
+session-rate = 18.2    
+reply-rate = 223.2   
+session-rate = 15.2    
+reply-rate = 238.0   
+session-rate = 19.4    
+reply-rate = 232.3   
+session-rate = 17.2    
+reply-rate = 237.0   
+session-rate = 14.2    
+reply-rate = 245.8   
+session-rate = 23.2    
+reply-rate = 233.9   
+session-rate = 19.0    
+reply-rate = 214.0   
+session-rate = 18.8    
+Maximum connect burst length: 6047
+
+Total: connections 140852 requests 153325 replies 13607 test-duration 60.039 s
+
+Connection rate: 2346.0 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 234.9 avg 1329.2 max 5092.2 median 1275.5 stddev 455.9
+Connection time [ms]: connect 31.1
+Connection length [replies/conn]: 1.022
+
+Request rate: 2553.8 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 172.6 avg 226.6 max 245.8 stddev 19.5 (12 samples)
+Reply time [ms]: response 1215.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13607 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.22 system 32.34 (user 5.4% system 53.9% total 59.2%)
+Net I/O: 922.3 KB/s (7.6*10^6 bps)
+
+Errors: total 1129338 client-timo 0 socket-timo 0 connrefused 0 connreset 138761
+Errors: fd-unavail 990577 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 11.80 avg 17.96 max 23.20 stddev 3.20 (1078/1118184)
+Session: avg 1.73 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1105731 11375 1078
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=18950 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 174.4   
+session-rate = 7.8     
+reply-rate = 240.6   
+session-rate = 15.8    
+reply-rate = 250.6   
+session-rate = 23.6    
+reply-rate = 223.4   
+session-rate = 16.4    
+reply-rate = 176.0   
+session-rate = 12.0    
+reply-rate = 255.8   
+session-rate = 22.8    
+reply-rate = 236.2   
+session-rate = 21.8    
+reply-rate = 217.6   
+session-rate = 18.2    
+reply-rate = 235.4   
+session-rate = 24.8    
+reply-rate = 231.8   
+session-rate = 16.4    
+reply-rate = 227.0   
+session-rate = 19.6    
+reply-rate = 213.8   
+session-rate = 13.2    
+Maximum connect burst length: 18878
+
+Total: connections 141895 requests 154452 replies 13658 test-duration 61.019 s
+
+Connection rate: 2325.4 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 232.9 avg 1366.0 max 5327.3 median 1329.5 stddev 445.8
+Connection time [ms]: connect 18.9
+Connection length [replies/conn]: 1.026
+
+Request rate: 2531.2 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 174.4 avg 223.5 max 255.8 stddev 25.7 (12 samples)
+Reply time [ms]: response 1276.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13658 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.30 system 33.52 (user 5.4% system 54.9% total 60.3%)
+Net I/O: 911.4 KB/s (7.5*10^6 bps)
+
+Errors: total 1168207 client-timo 0 socket-timo 0 connrefused 0 connreset 139810
+Errors: fd-unavail 1028397 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 7.80 avg 17.57 max 24.80 stddev 5.13 (1072/1157038)
+Session: avg 1.68 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1144511 11455 1072
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=19250 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 171.0   
+session-rate = 9.8     
+reply-rate = 235.4   
+session-rate = 17.8    
+reply-rate = 221.8   
+session-rate = 24.0    
+reply-rate = 215.0   
+session-rate = 15.4    
+reply-rate = 227.7   
+session-rate = 16.2    
+reply-rate = 221.4   
+session-rate = 19.4    
+reply-rate = 220.8   
+session-rate = 14.2    
+reply-rate = 227.2   
+session-rate = 24.2    
+reply-rate = 231.8   
+session-rate = 17.4    
+reply-rate = 223.6   
+session-rate = 14.0    
+reply-rate = 244.2   
+session-rate = 16.8    
+reply-rate = 227.2   
+session-rate = 15.0    
+Maximum connect burst length: 5417
+
+Total: connections 143824 requests 156133 replies 13340 test-duration 60.024 s
+
+Connection rate: 2396.1 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 267.9 avg 1361.9 max 3762.0 median 1343.5 stddev 321.6
+Connection time [ms]: connect 25.5
+Connection length [replies/conn]: 1.024
+
+Request rate: 2601.2 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 171.0 avg 222.3 max 244.2 stddev 17.9 (12 samples)
+Reply time [ms]: response 1260.4 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13340 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.34 system 32.69 (user 5.6% system 54.5% total 60.0%)
+Net I/O: 912.2 KB/s (7.5*10^6 bps)
+
+Errors: total 1164818 client-timo 0 socket-timo 0 connrefused 0 connreset 141782
+Errors: fd-unavail 1023036 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.80 avg 17.01 max 24.20 stddev 4.08 (1021/1153838)
+Session: avg 1.69 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.1
+Session length histogram: 1141563 11254 1021
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=19550 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 174.6   
+session-rate = 9.8     
+reply-rate = 236.2   
+session-rate = 25.0    
+reply-rate = 235.4   
+session-rate = 20.6    
+reply-rate = 220.8   
+session-rate = 14.2    
+reply-rate = 225.6   
+session-rate = 20.8    
+reply-rate = 220.4   
+session-rate = 17.8    
+reply-rate = 239.6   
+session-rate = 20.8    
+reply-rate = 233.6   
+session-rate = 23.4    
+reply-rate = 231.4   
+session-rate = 29.8    
+reply-rate = 254.4   
+session-rate = 21.2    
+reply-rate = 232.8   
+session-rate = 22.6    
+reply-rate = 227.0   
+session-rate = 22.0    
+Maximum connect burst length: 6621
+
+Total: connections 141691 requests 154030 replies 13676 test-duration 60.105 s
+
+Connection rate: 2357.4 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 288.5 avg 1350.9 max 3502.3 median 1340.5 stddev 357.5
+Connection time [ms]: connect 23.2
+Connection length [replies/conn]: 1.033
+
+Request rate: 2562.7 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 174.6 avg 227.7 max 254.4 stddev 19.0 (12 samples)
+Reply time [ms]: response 1244.7 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13676 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.27 system 33.31 (user 5.4% system 55.4% total 60.9%)
+Net I/O: 925.4 KB/s (7.6*10^6 bps)
+
+Errors: total 1182281 client-timo 0 socket-timo 0 connrefused 0 connreset 139430
+Errors: fd-unavail 1042851 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.80 avg 20.65 max 29.80 stddev 5.08 (1241/1171519)
+Session: avg 1.66 connections/session
+Session lifetime [s]: 2.4
+Session failtime [s]: 0.0
+Session length histogram: 1159142 11136 1241
+httperf --verbose --hog --timeout=60 --client=0/1 --server=localhost --port=80 --uri=/ --rate=19850 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1024
+reply-rate = 165.0   
+session-rate = 9.8     
+reply-rate = 210.0   
+session-rate = 14.4    
+reply-rate = 221.8   
+session-rate = 16.6    
+reply-rate = 235.0   
+session-rate = 23.2    
+reply-rate = 222.2   
+session-rate = 21.8    
+reply-rate = 237.4   
+session-rate = 18.4    
+reply-rate = 230.0   
+session-rate = 18.6    
+reply-rate = 234.8   
+session-rate = 13.0    
+reply-rate = 230.2   
+session-rate = 20.2    
+reply-rate = 241.0   
+session-rate = 22.6    
+reply-rate = 236.0   
+session-rate = 18.0    
+reply-rate = 225.6   
+session-rate = 17.0    
+Maximum connect burst length: 6860
+
+Total: connections 142849 requests 155180 replies 13449 test-duration 60.030 s
+
+Connection rate: 2379.6 conn/s (0.4 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 255.5 avg 1351.0 max 3869.5 median 1347.5 stddev 341.3
+Connection time [ms]: connect 27.6
+Connection length [replies/conn]: 1.027
+
+Request rate: 2585.0 req/s (0.4 ms/req)
+Request size [B]: 87.0
+
+Reply rate [replies/s]: min 165.0 avg 224.1 max 241.0 stddev 20.5 (12 samples)
+Reply time [ms]: response 1237.2 transfer 0.0
+Reply size [B]: header 354.0 content 2829.0 footer 0.0 (total 3183.0)
+Reply status: 1xx=0 2xx=13449 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 3.28 system 33.18 (user 5.5% system 55.3% total 60.7%)
+Net I/O: 916.5 KB/s (7.5*10^6 bps)
+
+Errors: total 1203220 client-timo 0 socket-timo 0 connrefused 0 connreset 140762
+Errors: fd-unavail 1062458 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 9.80 avg 17.81 max 23.20 stddev 4.00 (1069/1192268)
+Session: avg 1.67 connections/session
+Session lifetime [s]: 2.5
+Session failtime [s]: 0.0
+Session length histogram: 1179947 11252 1069

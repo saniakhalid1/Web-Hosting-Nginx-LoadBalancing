@@ -1,0 +1,390 @@
+و 17:56:51 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       0.23%     47.29MiB / 7.663GiB   0.60%     2.99GB / 17.1GB   676kB / 3.57MB    3
+c001a4a62065   nginx_proxy   0.00%     6.855MiB / 7.663GiB   0.09%     54.5GB / 48.2GB   13.3MB / 1.37GB   2
+e0103b1c80bc   solver2       0.20%     51MiB / 7.663GiB      0.65%     2.97GB / 17.1GB   13.9MB / 0B       3
+------------------------------------
+و 17:57:54 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       43.38%    47.76MiB / 7.663GiB   0.61%     3GB / 17.1GB      676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   14.12%    10.8MiB / 7.663GiB    0.14%     54.6GB / 48.2GB   13.3MB / 1.37GB   2
+e0103b1c80bc   solver2       45.99%    51.26MiB / 7.663GiB   0.65%     2.97GB / 17.1GB   13.9MB / 0B       9
+------------------------------------
+و 17:58:56 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.73%    47.81MiB / 7.663GiB   0.61%     3GB / 17.2GB      676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   13.88%    12.33MiB / 7.663GiB   0.16%     54.6GB / 48.3GB   13.3MB / 1.38GB   2
+e0103b1c80bc   solver2       32.89%    51.2MiB / 7.663GiB    0.65%     2.98GB / 17.2GB   13.9MB / 0B       7
+------------------------------------
+و 17:59:59 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       45.06%    47.7MiB / 7.663GiB    0.61%     3.01GB / 17.2GB   676kB / 3.57MB    11
+c001a4a62065   nginx_proxy   16.67%    12.44MiB / 7.663GiB   0.16%     54.7GB / 48.4GB   13.3MB / 1.38GB   2
+e0103b1c80bc   solver2       46.52%    51.17MiB / 7.663GiB   0.65%     2.98GB / 17.2GB   13.9MB / 0B       6
+------------------------------------
+و 18:01:02 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       46.26%    47.84MiB / 7.663GiB   0.61%     3.01GB / 17.2GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   18.24%    12.79MiB / 7.663GiB   0.16%     54.8GB / 48.5GB   13.3MB / 1.38GB   2
+e0103b1c80bc   solver2       51.33%    51.35MiB / 7.663GiB   0.65%     2.99GB / 17.2GB   13.9MB / 0B       10
+------------------------------------
+و 18:02:04 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       53.01%    47.55MiB / 7.663GiB   0.61%     3.02GB / 17.3GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   18.81%    13.07MiB / 7.663GiB   0.17%     54.9GB / 48.6GB   13.3MB / 1.38GB   2
+e0103b1c80bc   solver2       43.97%    51.2MiB / 7.663GiB    0.65%     2.99GB / 17.3GB   13.9MB / 0B       7
+------------------------------------
+و 18:03:07 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       46.74%    47.62MiB / 7.663GiB   0.61%     3.03GB / 17.3GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   19.88%    12.78MiB / 7.663GiB   0.16%     55GB / 48.7GB     13.3MB / 1.39GB   2
+e0103b1c80bc   solver2       48.24%    51.3MiB / 7.663GiB    0.65%     3GB / 17.3GB      13.9MB / 0B       8
+------------------------------------
+و 18:04:10 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       51.59%    47.59MiB / 7.663GiB   0.61%     3.03GB / 17.3GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   20.43%    12.73MiB / 7.663GiB   0.16%     55.2GB / 48.8GB   13.3MB / 1.39GB   2
+e0103b1c80bc   solver2       46.23%    51.18MiB / 7.663GiB   0.65%     3.01GB / 17.4GB   13.9MB / 0B       7
+------------------------------------
+و 18:05:12 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.93%    47.88MiB / 7.663GiB   0.61%     3.04GB / 17.4GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   20.18%    13MiB / 7.663GiB      0.17%     55.3GB / 48.9GB   13.3MB / 1.39GB   2
+e0103b1c80bc   solver2       42.60%    51.11MiB / 7.663GiB   0.65%     3.01GB / 17.4GB   13.9MB / 0B       5
+------------------------------------
+و 18:06:15 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       42.81%    47.56MiB / 7.663GiB   0.61%     3.04GB / 17.4GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.26%    12.45MiB / 7.663GiB   0.16%     55.4GB / 49GB     13.3MB / 1.39GB   2
+e0103b1c80bc   solver2       36.27%    51.4MiB / 7.663GiB    0.66%     3.02GB / 17.4GB   13.9MB / 0B       10
+------------------------------------
+و 18:07:18 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       38.89%    47.7MiB / 7.663GiB    0.61%     3.05GB / 17.4GB   676kB / 3.57MB   10
+c001a4a62065   nginx_proxy   22.97%    12.59MiB / 7.663GiB   0.16%     55.5GB / 49.1GB   13.3MB / 1.4GB   2
+e0103b1c80bc   solver2       38.56%    51.16MiB / 7.663GiB   0.65%     3.02GB / 17.4GB   13.9MB / 0B      7
+------------------------------------
+و 18:08:20 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       39.62%    47.38MiB / 7.663GiB   0.60%     3.05GB / 17.5GB   676kB / 3.57MB   4
+c001a4a62065   nginx_proxy   21.33%    12.75MiB / 7.663GiB   0.16%     55.6GB / 49.2GB   13.3MB / 1.4GB   2
+e0103b1c80bc   solver2       41.41%    51.21MiB / 7.663GiB   0.65%     3.03GB / 17.5GB   13.9MB / 0B      7
+------------------------------------
+و 18:09:23 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       35.89%    47.64MiB / 7.663GiB   0.61%     3.06GB / 17.5GB   676kB / 3.57MB   10
+c001a4a62065   nginx_proxy   20.07%    12.81MiB / 7.663GiB   0.16%     55.8GB / 49.3GB   13.3MB / 1.4GB   2
+e0103b1c80bc   solver2       37.59%    51.16MiB / 7.663GiB   0.65%     3.03GB / 17.5GB   13.9MB / 0B      6
+------------------------------------
+و 18:10:26 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       34.86%    47.7MiB / 7.663GiB    0.61%     3.06GB / 17.5GB   676kB / 3.57MB   11
+c001a4a62065   nginx_proxy   20.57%    12.74MiB / 7.663GiB   0.16%     55.9GB / 49.4GB   13.3MB / 1.4GB   2
+e0103b1c80bc   solver2       37.51%    51.2MiB / 7.663GiB    0.65%     3.04GB / 17.5GB   13.9MB / 0B      7
+------------------------------------
+و 18:11:28 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       39.11%    47.57MiB / 7.663GiB   0.61%     3.07GB / 17.5GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.20%    12.87MiB / 7.663GiB   0.16%     56GB / 49.5GB     13.3MB / 1.41GB   2
+e0103b1c80bc   solver2       41.53%    51.44MiB / 7.663GiB   0.66%     3.04GB / 17.6GB   13.9MB / 0B       7
+------------------------------------
+و 18:12:31 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.46%    47.86MiB / 7.663GiB   0.61%     3.07GB / 17.6GB   676kB / 3.57MB    14
+c001a4a62065   nginx_proxy   19.95%    13.09MiB / 7.663GiB   0.17%     56.2GB / 49.6GB   13.3MB / 1.41GB   2
+e0103b1c80bc   solver2       39.10%    51.31MiB / 7.663GiB   0.65%     3.05GB / 17.6GB   13.9MB / 0B       10
+------------------------------------
+و 18:13:34 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.72%    47.57MiB / 7.663GiB   0.61%     3.08GB / 17.6GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.04%    13.13MiB / 7.663GiB   0.17%     56.3GB / 49.7GB   13.3MB / 1.41GB   2
+e0103b1c80bc   solver2       38.91%    51.21MiB / 7.663GiB   0.65%     3.05GB / 17.6GB   13.9MB / 0B       8
+------------------------------------
+و 18:14:37 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.95%    47.54MiB / 7.663GiB   0.61%     3.08GB / 17.6GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   19.48%    13.2MiB / 7.663GiB    0.17%     56.4GB / 49.8GB   13.3MB / 1.41GB   2
+e0103b1c80bc   solver2       39.30%    51.2MiB / 7.663GiB    0.65%     3.06GB / 17.7GB   13.9MB / 0B       7
+------------------------------------
+و 18:15:39 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.93%    47.53MiB / 7.663GiB   0.61%     3.09GB / 17.7GB   676kB / 3.57MB    6
+c001a4a62065   nginx_proxy   18.69%    12.82MiB / 7.663GiB   0.16%     56.6GB / 49.9GB   13.3MB / 1.42GB   2
+e0103b1c80bc   solver2       37.09%    51.32MiB / 7.663GiB   0.65%     3.06GB / 17.7GB   13.9MB / 0B       10
+------------------------------------
+و 18:16:42 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.78%    47.88MiB / 7.663GiB   0.61%     3.09GB / 17.7GB   676kB / 3.57MB    13
+c001a4a62065   nginx_proxy   20.05%    12.83MiB / 7.663GiB   0.16%     56.7GB / 50GB     13.3MB / 1.42GB   2
+e0103b1c80bc   solver2       36.23%    51.28MiB / 7.663GiB   0.65%     3.07GB / 17.7GB   13.9MB / 0B       8
+------------------------------------
+و 18:17:45 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.04%    47.74MiB / 7.663GiB   0.61%     3.1GB / 17.7GB    676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   20.85%    13.07MiB / 7.663GiB   0.17%     56.8GB / 50.1GB   13.3MB / 1.42GB   2
+e0103b1c80bc   solver2       38.10%    51.26MiB / 7.663GiB   0.65%     3.07GB / 17.7GB   13.9MB / 0B       9
+------------------------------------
+و 18:18:47 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       46.20%    47.6MiB / 7.663GiB    0.61%     3.1GB / 17.8GB    676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   25.03%    13.55MiB / 7.663GiB   0.17%     56.9GB / 50.2GB   13.3MB / 1.42GB   2
+e0103b1c80bc   solver2       47.95%    51.28MiB / 7.663GiB   0.65%     3.08GB / 17.8GB   13.9MB / 0B       8
+------------------------------------
+و 18:19:50 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       39.57%    47.66MiB / 7.663GiB   0.61%     3.11GB / 17.8GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   21.92%    13.54MiB / 7.663GiB   0.17%     57.1GB / 50.3GB   13.3MB / 1.42GB   2
+e0103b1c80bc   solver2       39.55%    51.36MiB / 7.663GiB   0.65%     3.09GB / 17.8GB   13.9MB / 0B       10
+------------------------------------
+و 18:20:53 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       39.29%    47.63MiB / 7.663GiB   0.61%     3.11GB / 17.8GB   676kB / 3.57MB    10
+c001a4a62065   nginx_proxy   25.11%    13.68MiB / 7.663GiB   0.17%     57.2GB / 50.4GB   13.3MB / 1.43GB   2
+e0103b1c80bc   solver2       39.74%    51.18MiB / 7.663GiB   0.65%     3.09GB / 17.8GB   13.9MB / 0B       7
+------------------------------------
+و 18:21:55 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.16%    47.55MiB / 7.663GiB   0.61%     3.12GB / 17.8GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.81%    13.58MiB / 7.663GiB   0.17%     57.3GB / 50.5GB   13.3MB / 1.43GB   2
+e0103b1c80bc   solver2       36.04%    51.22MiB / 7.663GiB   0.65%     3.1GB / 17.9GB    13.9MB / 0B       7
+------------------------------------
+و 18:22:58 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.55%    47.49MiB / 7.663GiB   0.61%     3.12GB / 17.9GB   676kB / 3.57MB    5
+c001a4a62065   nginx_proxy   18.39%    13.35MiB / 7.663GiB   0.17%     57.5GB / 50.6GB   13.3MB / 1.43GB   2
+e0103b1c80bc   solver2       39.35%    51.23MiB / 7.663GiB   0.65%     3.1GB / 17.9GB    13.9MB / 0B       7
+------------------------------------
+و 18:24:01 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.68%    47.5MiB / 7.663GiB    0.61%     3.13GB / 17.9GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   22.62%    13.7MiB / 7.663GiB    0.17%     57.6GB / 50.7GB   13.3MB / 1.43GB   2
+e0103b1c80bc   solver2       35.67%    51.25MiB / 7.663GiB   0.65%     3.11GB / 17.9GB   13.9MB / 0B       8
+------------------------------------
+و 18:25:03 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       35.26%    47.46MiB / 7.663GiB   0.60%     3.13GB / 17.9GB   676kB / 3.57MB    6
+c001a4a62065   nginx_proxy   21.55%    13.65MiB / 7.663GiB   0.17%     57.7GB / 50.8GB   13.3MB / 1.44GB   2
+e0103b1c80bc   solver2       39.38%    51.48MiB / 7.663GiB   0.66%     3.11GB / 18GB     13.9MB / 0B       7
+------------------------------------
+و 18:26:06 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       39.38%    47.33MiB / 7.663GiB   0.60%     3.14GB / 18GB     676kB / 3.57MB    3
+c001a4a62065   nginx_proxy   12.15%    13.25MiB / 7.663GiB   0.17%     57.8GB / 50.9GB   13.3MB / 1.44GB   2
+e0103b1c80bc   solver2       11.65%    51.19MiB / 7.663GiB   0.65%     3.12GB / 18GB     13.9MB / 0B       8
+------------------------------------
+و 18:30:09 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+65279a8ab0c1   solver1       41.06%    47.59MiB / 7.663GiB   0.61%     3.14GB / 18GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   22.82%    12.96MiB / 7.663GiB   0.17%     57.9GB / 51GB   13.3MB / 1.44GB   2
+e0103b1c80bc   solver2       39.33%    51.4MiB / 7.663GiB    0.65%     3.12GB / 18GB   13.9MB / 0B       7
+------------------------------------
+و 18:31:12 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.72%    47.39MiB / 7.663GiB   0.60%     3.15GB / 18GB   676kB / 3.57MB    4
+c001a4a62065   nginx_proxy   21.89%    13.47MiB / 7.663GiB   0.17%     58GB / 51.1GB   13.3MB / 1.44GB   2
+e0103b1c80bc   solver2       38.55%    51.43MiB / 7.663GiB   0.66%     3.12GB / 18GB   13.9MB / 0B       7
+------------------------------------
+و 18:32:15 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       40.02%    47.71MiB / 7.663GiB   0.61%     3.15GB / 18GB     676kB / 3.57MB    10
+c001a4a62065   nginx_proxy   20.66%    13.87MiB / 7.663GiB   0.18%     58.1GB / 51.2GB   13.3MB / 1.44GB   2
+e0103b1c80bc   solver2       40.18%    51.22MiB / 7.663GiB   0.65%     3.13GB / 18.1GB   13.9MB / 0B       8
+------------------------------------
+و 18:33:17 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       35.37%    47.49MiB / 7.663GiB   0.61%     3.16GB / 18.1GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   21.65%    13.71MiB / 7.663GiB   0.17%     58.2GB / 51.2GB   13.3MB / 1.45GB   2
+e0103b1c80bc   solver2       36.93%    51.41MiB / 7.663GiB   0.66%     3.13GB / 18.1GB   13.9MB / 0B       11
+------------------------------------
+و 18:34:20 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       39.27%    47.51MiB / 7.663GiB   0.61%     3.16GB / 18.1GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   20.81%    13.7MiB / 7.663GiB    0.17%     58.3GB / 51.3GB   13.3MB / 1.45GB   2
+e0103b1c80bc   solver2       39.36%    51.17MiB / 7.663GiB   0.65%     3.14GB / 18.1GB   13.9MB / 0B       7
+------------------------------------
+و 18:35:23 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       41.93%    47.52MiB / 7.663GiB   0.61%     3.16GB / 18.1GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   21.88%    13.54MiB / 7.663GiB   0.17%     58.4GB / 51.4GB   13.3MB / 1.45GB   2
+e0103b1c80bc   solver2       39.08%    51.45MiB / 7.663GiB   0.66%     3.14GB / 18.1GB   13.9MB / 0B       6
+------------------------------------
+و 18:36:25 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       41.47%    47.48MiB / 7.663GiB   0.60%     3.17GB / 18.1GB   676kB / 3.57MB    6
+c001a4a62065   nginx_proxy   20.82%    14.02MiB / 7.663GiB   0.18%     58.6GB / 51.5GB   13.3MB / 1.45GB   2
+e0103b1c80bc   solver2       40.78%    51.34MiB / 7.663GiB   0.65%     3.15GB / 18.2GB   13.9MB / 0B       9
+------------------------------------
+و 18:37:28 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.79%    47.68MiB / 7.663GiB   0.61%     3.17GB / 18.2GB   676kB / 3.57MB    4
+c001a4a62065   nginx_proxy   23.04%    13.95MiB / 7.663GiB   0.18%     58.7GB / 51.6GB   13.3MB / 1.45GB   2
+e0103b1c80bc   solver2       37.87%    51.3MiB / 7.663GiB    0.65%     3.15GB / 18.2GB   13.9MB / 0B       9
+------------------------------------
+و 18:38:31 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.40%    47.65MiB / 7.663GiB   0.61%     3.18GB / 18.2GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   20.84%    14.09MiB / 7.663GiB   0.18%     58.8GB / 51.7GB   13.3MB / 1.46GB   2
+e0103b1c80bc   solver2       38.54%    51.26MiB / 7.663GiB   0.65%     3.15GB / 18.2GB   13.9MB / 0B       7
+------------------------------------
+و 18:39:34 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.01%    47.72MiB / 7.663GiB   0.61%     3.18GB / 18.2GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   22.70%    14MiB / 7.663GiB      0.18%     58.9GB / 51.8GB   13.3MB / 1.46GB   2
+e0103b1c80bc   solver2       40.97%    51.11MiB / 7.663GiB   0.65%     3.16GB / 18.2GB   13.9MB / 0B       5
+------------------------------------
+و 18:40:36 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       43.85%    47.48MiB / 7.663GiB   0.61%     3.19GB / 18.2GB   676kB / 3.57MB    5
+c001a4a62065   nginx_proxy   25.21%    14.05MiB / 7.663GiB   0.18%     59GB / 51.8GB     13.3MB / 1.46GB   2
+e0103b1c80bc   solver2       46.34%    51.42MiB / 7.663GiB   0.66%     3.16GB / 18.3GB   13.9MB / 0B       7
+------------------------------------
+و 18:41:38 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       35.67%    47.74MiB / 7.663GiB   0.61%     3.19GB / 18.3GB   676kB / 3.57MB    12
+c001a4a62065   nginx_proxy   20.28%    14.04MiB / 7.663GiB   0.18%     59.1GB / 51.9GB   13.3MB / 1.46GB   2
+e0103b1c80bc   solver2       38.16%    51.38MiB / 7.663GiB   0.65%     3.17GB / 18.3GB   13.9MB / 0B       11
+------------------------------------
+و 18:42:41 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.88%    47.54MiB / 7.663GiB   0.61%     3.2GB / 18.3GB    676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   20.84%    14.12MiB / 7.663GiB   0.18%     59.2GB / 52GB     13.3MB / 1.46GB   2
+e0103b1c80bc   solver2       39.59%    51.18MiB / 7.663GiB   0.65%     3.17GB / 18.3GB   13.9MB / 0B       6
+------------------------------------
+و 18:43:43 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.22%    47.54MiB / 7.663GiB   0.61%     3.2GB / 18.3GB    676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   20.73%    14.2MiB / 7.663GiB    0.18%     59.3GB / 52.1GB   13.3MB / 1.46GB   2
+e0103b1c80bc   solver2       41.99%    51.32MiB / 7.663GiB   0.65%     3.18GB / 18.3GB   13.9MB / 0B       10
+------------------------------------
+و 18:44:46 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       40.33%    47.48MiB / 7.663GiB   0.60%     3.2GB / 18.3GB    676kB / 3.57MB    6
+c001a4a62065   nginx_proxy   21.94%    14.39MiB / 7.663GiB   0.18%     59.4GB / 52.2GB   13.3MB / 1.47GB   2
+e0103b1c80bc   solver2       28.66%    51.57MiB / 7.663GiB   0.66%     3.18GB / 18.4GB   13.9MB / 0B       10
+------------------------------------
+و 18:45:49 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       41.30%    48.09MiB / 7.663GiB   0.61%     3.21GB / 18.4GB   676kB / 3.57MB    12
+c001a4a62065   nginx_proxy   22.03%    14.35MiB / 7.663GiB   0.18%     59.5GB / 52.3GB   13.3MB / 1.47GB   2
+e0103b1c80bc   solver2       46.15%    51.46MiB / 7.663GiB   0.66%     3.18GB / 18.4GB   13.9MB / 0B       7
+------------------------------------
+و 18:46:51 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       33.84%    47.59MiB / 7.663GiB   0.61%     3.21GB / 18.4GB   676kB / 3.57MB    9
+c001a4a62065   nginx_proxy   21.97%    14.58MiB / 7.663GiB   0.19%     59.6GB / 52.4GB   13.3MB / 1.47GB   2
+e0103b1c80bc   solver2       38.69%    51.38MiB / 7.663GiB   0.65%     3.19GB / 18.4GB   13.9MB / 0B       6
+------------------------------------
+و 18:47:54 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.57%    47.38MiB / 7.663GiB   0.60%     3.22GB / 18.4GB   676kB / 3.57MB    4
+c001a4a62065   nginx_proxy   24.40%    14.48MiB / 7.663GiB   0.18%     59.7GB / 52.4GB   13.3MB / 1.47GB   2
+e0103b1c80bc   solver2       36.46%    51.41MiB / 7.663GiB   0.66%     3.19GB / 18.4GB   13.9MB / 0B       11
+------------------------------------
+و 18:48:57 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       33.31%    47.55MiB / 7.663GiB   0.61%     3.22GB / 18.4GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   23.97%    14.49MiB / 7.663GiB   0.18%     59.8GB / 52.5GB   13.3MB / 1.47GB   2
+e0103b1c80bc   solver2       39.54%    51.15MiB / 7.663GiB   0.65%     3.2GB / 18.5GB    13.9MB / 0B       6
+------------------------------------
+و 18:50:00 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       40.22%    47.61MiB / 7.663GiB   0.61%     3.23GB / 18.5GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   20.64%    14.67MiB / 7.663GiB   0.19%     59.9GB / 52.6GB   13.3MB / 1.48GB   2
+e0103b1c80bc   solver2       39.06%    51.17MiB / 7.663GiB   0.65%     3.2GB / 18.5GB    13.9MB / 0B       6
+------------------------------------
+و 18:51:02 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.27%    47.45MiB / 7.663GiB   0.60%     3.23GB / 18.5GB   676kB / 3.57MB    6
+c001a4a62065   nginx_proxy   20.66%    14.51MiB / 7.663GiB   0.18%     60GB / 52.7GB     13.3MB / 1.48GB   2
+e0103b1c80bc   solver2       41.07%    51.21MiB / 7.663GiB   0.65%     3.21GB / 18.5GB   13.9MB / 0B       7
+------------------------------------
+و 18:52:05 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.20%    47.61MiB / 7.663GiB   0.61%     3.24GB / 18.5GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.53%    15MiB / 7.663GiB      0.19%     60.2GB / 52.8GB   13.3MB / 1.48GB   2
+e0103b1c80bc   solver2       40.92%    51.18MiB / 7.663GiB   0.65%     3.21GB / 18.5GB   13.9MB / 0B       7
+------------------------------------
+و 18:53:08 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.46%    47.54MiB / 7.663GiB   0.61%     3.24GB / 18.5GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.16%    14.42MiB / 7.663GiB   0.18%     60.3GB / 52.9GB   13.3MB / 1.48GB   2
+e0103b1c80bc   solver2       37.58%    51.31MiB / 7.663GiB   0.65%     3.22GB / 18.6GB   13.9MB / 0B       9
+------------------------------------
+و 18:54:10 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       35.68%    47.59MiB / 7.663GiB   0.61%     3.24GB / 18.6GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.45%    15.08MiB / 7.663GiB   0.19%     60.4GB / 52.9GB   13.3MB / 1.48GB   2
+e0103b1c80bc   solver2       37.53%    51.29MiB / 7.663GiB   0.65%     3.22GB / 18.6GB   13.9MB / 0B       8
+------------------------------------
+و 18:55:13 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       35.80%    47.55MiB / 7.663GiB   0.61%     3.25GB / 18.6GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   21.15%    14.64MiB / 7.663GiB   0.19%     60.5GB / 53GB     13.3MB / 1.49GB   2
+e0103b1c80bc   solver2       39.68%    51.18MiB / 7.663GiB   0.65%     3.22GB / 18.6GB   13.9MB / 0B       7
+------------------------------------
+و 18:56:16 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.99%    47.56MiB / 7.663GiB   0.61%     3.25GB / 18.6GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   21.90%    14.94MiB / 7.663GiB   0.19%     60.6GB / 53.1GB   13.3MB / 1.49GB   2
+e0103b1c80bc   solver2       37.40%    51.13MiB / 7.663GiB   0.65%     3.23GB / 18.6GB   13.9MB / 0B       5
+------------------------------------
+و 18:57:18 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       37.61%    47.63MiB / 7.663GiB   0.61%     3.26GB / 18.6GB   676kB / 3.57MB    10
+c001a4a62065   nginx_proxy   20.94%    15.1MiB / 7.663GiB    0.19%     60.7GB / 53.2GB   13.3MB / 1.49GB   2
+e0103b1c80bc   solver2       38.25%    51.19MiB / 7.663GiB   0.65%     3.23GB / 18.7GB   13.9MB / 0B       7
+------------------------------------
+و 18:58:21 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       40.19%    47.57MiB / 7.663GiB   0.61%     3.26GB / 18.7GB   676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   22.21%    14.9MiB / 7.663GiB    0.19%     60.8GB / 53.3GB   13.3MB / 1.49GB   2
+e0103b1c80bc   solver2       35.23%    51.1MiB / 7.663GiB    0.65%     3.24GB / 18.7GB   13.9MB / 0B       4
+------------------------------------
+و 18:59:24 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       36.62%    47.5MiB / 7.663GiB    0.61%     3.27GB / 18.7GB   676kB / 3.57MB    6
+c001a4a62065   nginx_proxy   19.98%    15.29MiB / 7.663GiB   0.19%     60.9GB / 53.4GB   13.3MB / 1.49GB   2
+e0103b1c80bc   solver2       39.80%    51.25MiB / 7.663GiB   0.65%     3.24GB / 18.7GB   13.9MB / 0B       8
+------------------------------------
+و 19:00:26 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       43.22%    47.52MiB / 7.663GiB   0.61%     3.27GB / 18.7GB   676kB / 3.57MB   8
+c001a4a62065   nginx_proxy   20.90%    14.73MiB / 7.663GiB   0.19%     61GB / 53.5GB     13.3MB / 1.5GB   2
+e0103b1c80bc   solver2       42.58%    51.46MiB / 7.663GiB   0.66%     3.25GB / 18.7GB   13.9MB / 0B      7
+------------------------------------
+و 19:01:29 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       41.51%    47.89MiB / 7.663GiB   0.61%     3.27GB / 18.7GB   676kB / 3.57MB   10
+c001a4a62065   nginx_proxy   21.79%    15.16MiB / 7.663GiB   0.19%     61.1GB / 53.5GB   13.3MB / 1.5GB   2
+e0103b1c80bc   solver2       46.40%    51.34MiB / 7.663GiB   0.65%     3.25GB / 18.8GB   13.9MB / 0B      4
+------------------------------------
+و 19:02:32 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       38.06%    47.49MiB / 7.663GiB   0.61%     3.28GB / 18.8GB   676kB / 3.57MB   6
+c001a4a62065   nginx_proxy   22.80%    15.12MiB / 7.663GiB   0.19%     61.2GB / 53.6GB   13.3MB / 1.5GB   2
+e0103b1c80bc   solver2       39.21%    51.19MiB / 7.663GiB   0.65%     3.25GB / 18.8GB   13.9MB / 0B      7
+------------------------------------
+و 19:03:35 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       46.38%    47.57MiB / 7.663GiB   0.61%     3.28GB / 18.8GB   676kB / 3.57MB   9
+c001a4a62065   nginx_proxy   21.53%    15.34MiB / 7.663GiB   0.20%     61.3GB / 53.7GB   13.3MB / 1.5GB   2
+e0103b1c80bc   solver2       43.34%    51.16MiB / 7.663GiB   0.65%     3.26GB / 18.8GB   13.9MB / 0B      6
+------------------------------------
+و 19:04:38 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+65279a8ab0c1   solver1       38.64%    47.77MiB / 7.663GiB   0.61%     3.29GB / 18.8GB   676kB / 3.57MB   8
+c001a4a62065   nginx_proxy   22.39%    15.26MiB / 7.663GiB   0.19%     61.4GB / 53.8GB   13.3MB / 1.5GB   2
+e0103b1c80bc   solver2       42.51%    51.33MiB / 7.663GiB   0.65%     3.26GB / 18.8GB   13.9MB / 0B      9
+------------------------------------
+و 19:05:41 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       38.23%    47.53MiB / 7.663GiB   0.61%     3.29GB / 18.9GB   676kB / 3.57MB    7
+c001a4a62065   nginx_proxy   21.71%    15.43MiB / 7.663GiB   0.20%     61.5GB / 53.9GB   13.3MB / 1.51GB   2
+e0103b1c80bc   solver2       39.01%    51.32MiB / 7.663GiB   0.65%     3.27GB / 18.9GB   13.9MB / 0B       9
+------------------------------------
+و 19:06:44 PKT ت 15 مارچ 2025
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+65279a8ab0c1   solver1       40.02%    47.59MiB / 7.663GiB   0.61%     3.3GB / 18.9GB    676kB / 3.57MB    8
+c001a4a62065   nginx_proxy   17.63%    15.12MiB / 7.663GiB   0.19%     61.6GB / 54GB     13.3MB / 1.51GB   2
+e0103b1c80bc   solver2       45.97%    51.31MiB / 7.663GiB   0.65%     3.27GB / 18.9GB   13.9MB / 0B       9
+------------------------------------
